@@ -4,7 +4,7 @@
   <title><![CDATA[Two minute spates]]></title>
   <link href="http://wallace.github.com/atom.xml" rel="self"/>
   <link href="http://wallace.github.com/"/>
-  <updated>2012-12-01T15:01:02-05:00</updated>
+  <updated>2012-12-01T15:28:27-05:00</updated>
   <id>http://wallace.github.com/</id>
   <author>
     <name><![CDATA[Jonathan R. Wallace]]></name>
@@ -12,5 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[FIRST POST!!!]]></title>
+    <link href="http://wallace.github.com/blog/2012/12/01/first-post/"/>
+    <updated>2012-12-01T15:11:00-05:00</updated>
+    <id>http://wallace.github.com/blog/2012/12/01/first-post</id>
+    <content type="html"><![CDATA[<p>Yikes, welcome back blog!</p>
+
+<p><a href="http://www.flickr.com/photos/jlcernadas/6202682707/" title="2285-Tachiño by jl.cernadas, on Flickr"><img src="http://farm7.staticflickr.com/6165/6202682707_b93fde3a93_m.jpg" width="240" height="184" alt="2285-Tachiño"></a></p>
+
+<!-- more -->
+
+
+<p>I lost my blog when an EC2 instance degraded and I had failed to make backups.
+Who want&#8217;s a <a href="http://wordpress.org/">word press</a> blog anyway.  I recovered all
+the other important files and applications and now that I&#8217;m using octopress
+backed up by github, there won&#8217;t be any more problems.</p>
+
+<p>Since then I now work <a href="http://highgroove.com/big-nerd-ranch.html">for a new
+company</a> with the same old awesome
+people plus a good many new awesome people.</p>
+
+<p>Kristina and I&#8217;ve also added <a href="http://www.flickr.com/photos/67828440@N05/sets/72157631687345524/">one to my
+family</a>. <a
+href="http://www.flickr.com/photos/67828440@N05/8235066830/" title="upload by
+Jonathan R Wallace, on Flickr"><img
+src="http://farm9.staticflickr.com/8487/8235066830_931a7108a3_m.jpg" width="240"
+height="240" alt="upload"></a></p>
+]]></content>
+  </entry>
   
 </feed>
