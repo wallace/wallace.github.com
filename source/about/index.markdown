@@ -13,3 +13,5 @@ footer: true
 - I have [work history](http://www.linkedin.com/pub/jonathan-wallace/9/8ba/888).
 - I sometimes [answer questions](http://stackoverflow.com/users/91029/jonathan-r-wallace).
 - I [keep up with family and friends](https://www.facebook.com/jonathanrwallace).
+- I [take pictures](http://www.flickr.com/photos/67828440@N05/).
+- I [take fancy pictures](http://instagram.com/jwallace41).
