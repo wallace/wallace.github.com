@@ -21,7 +21,7 @@ In fact, if you can't wait for the pull request to be accepted and a new version
 to be released you can do the following:
 
 ```
-    $ gem install specific_location
+    $ gem install specific_install
     $ gem specific_install -l https://github.com/bignerdranch/camper_van.git
 ```
 
