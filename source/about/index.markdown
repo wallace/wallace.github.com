@@ -10,6 +10,7 @@ footer: true
 - I [code](http://github.com/wallace).
 - I [tweet](http://twitter.com/jonathanwallace).
 - I [work](https://www.bignerdranch.com/about_us/nerds/jonathan_wallace).
+- I [present](https://speakerdeck.com/jwallace).
 - I have [work history](http://www.linkedin.com/pub/jonathan-wallace/9/8ba/888).
 - I sometimes [answer questions](http://stackoverflow.com/users/91029/jonathan-r-wallace).
 - I [keep up with family and friends](https://www.facebook.com/jonathanrwallace).
