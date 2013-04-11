@@ -9,7 +9,7 @@ categories:
 I've owed [skalnik](http://www.mikeskalnik.com/) a debt ever since he introduced
 me to [Alfred](http://www.alfredapp.com/).
 
-<a href="http://www.alfredapp.com" title="alfred logon"><img src="http://www.alfredapp.com/images/alfred-logo.png" width="240" height="180" alt="Money"></a>
+<a href="http://www.alfredapp.com" title="alfred logon"><img src="http://www.alfredapp.com/images/logo.png" width="240" height="180" alt="Money"></a>
 
 <!-- more -->
 
