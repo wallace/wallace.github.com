@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-I feel guilty for letting my blog sit silent for the past five months. From presidents to games to around the world travels, here's a quick highlight reel of what's happened the past few months..
+I feel guilty for letting my blog sit silent for the past five months. From presidents to games to around the world travels, here's a quick highlight reel of what's happened..
 
 <a href="http://www.flickr.com/photos/63854529@N00/2921793692/" title="cappuccino dog (coffee) CIMG0108 by skeddy in NYC, on Flickr"><img src="http://farm4.staticflickr.com/3216/2921793692_257c6b7940_m.jpg" width="240" height="180" alt="cappuccino dog (coffee) CIMG0108"></a>
 
