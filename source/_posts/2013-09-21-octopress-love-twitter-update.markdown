@@ -2,7 +2,7 @@
 layout: post
 title: "Octopress love; twitter update"
 date: 2013-09-21 16:12
-comments: true
+comments: false
 categories: 
 ---
 
@@ -24,8 +24,7 @@ You have to [create your own twitter widget](https://twitter.com/settings/widget
 
 I've also ported that fix over to the
 [justin-kelly-theme](https://github.com/wallace/justin-kelly-theme/commit/5d84658bcc74adfee974cdbd2c4e64ec90b0baf1)
-too. You'll want to remove the old justin-kelly-theme and reinstall it. Here's
-how:
+too. You'll want to remove the old justin-kelly-theme and reinstall it. Here's how:
 
 ```
 $ rm -rf .themes/justin-kelly-theme/
