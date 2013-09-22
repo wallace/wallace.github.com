@@ -16,5 +16,6 @@ footer: true
 - I [keep up with family and friends](https://www.facebook.com/jonathanrwallace).
 - I [take pictures](http://www.flickr.com/photos/67828440@N05/).
 - I [take fancy pictures](http://instagram.com/jwallace41).
+- I [sometimes share videos](https://vimeo.com/jonathanrwallace).
 - I [read](http://www.goodreads.com/user/show/217916-jonathan).
 - I [co-organize](http://www.meetup.com/Greater-Athens-Area-Software-Developers/).
