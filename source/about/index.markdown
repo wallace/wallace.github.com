@@ -8,6 +8,7 @@ footer: true
 ---
 
 - I [code](http://github.com/wallace).
+- I [contributed to rails](http://contributors.rubyonrails.org/contributors/jonathan-r-wallace/commits). :)
 - I [tweet](http://twitter.com/jonathanwallace).
 - I [work](https://www.bignerdranch.com/about_us/nerds/jonathan_wallace).
 - I [present](https://speakerdeck.com/jwallace).
