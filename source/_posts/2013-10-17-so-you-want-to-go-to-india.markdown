@@ -12,13 +12,15 @@ As I mentioned in [an earlier post](http://blog.jonathanrwallace.com/blog/2013/0
 
 <!-- more -->
 
-The short version: You'll have to send off a form, another form, a passport photo, your passport itself, a copy of your driver's license and $100 to the VISA processing location for your residence (for me, this was Houston).
+The short version: You'll have to send off a form, another form, a passport photo, your passport itself, a copy of your driver's license and $100 to the VISA processing location for your residence (for me, this was Houston). This takes about four to six weeks. It is best to get started as early as possible.
 
 You start [here](https://indiavisa.travisaoutsourcing.com/requirements/gather?apply=bymail).
 
 If you're like me and visiting for a conference, you'll select a tourist visa. Request a multiple entry visa for 6 months even if you won't use it. The nuance is that the visa starts at the time its issued, not from your travel date, so you may as well request the maximum.
 
 Then, you follow the [instructions here](https://indiavisa.travisaoutsourcing.com/requirements/display).
+
+You may want to get vaccinated too. I went to the [UGA travel clinic](http://www.uhs.uga.edu/services/travel_clinic.html) to get advised as to what vaccinations to get. Note, the vaccination schedules were lengthier than the time it took to get my VISA so get started even earlier!
 
 #### Random Questions I had
 
