@@ -34,4 +34,4 @@ NA again. Do not put SSN or something similar.
 
 How do I know the place of issue of my passport?
 
-It's the stuff under 'Authority' which for me is 'United States Department of State.''
+It's the stuff under 'Authority' which for me is 'United States Department of State.'
