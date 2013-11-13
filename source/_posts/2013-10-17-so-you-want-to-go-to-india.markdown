@@ -6,6 +6,8 @@ comments: true
 categories: 
 ---
 
+__Edit: How quickly information becomes stale. Before I had even written this post, the process for acquiring a VISA to visit India had already changed. In fact, it changed just a few short months after I went through the process. Instead of any of the below, go to [http://www.visa.blsindia-usa.com/](http://www.visa.blsindia-usa.com/) and follow the instructions.__
+
 As I mentioned in [an earlier post](http://blog.jonathanrwallace.com/blog/2013/09/21/good-news-everyone/), I greatly enjoyed my visit to India. However, there was a great deal of work to be permitted to travel there. In this post, we discuss what was involved in the preparation.
 
 <a href="http://www.flickr.com/photos/4nitsirk/2810126895/" title="Aga Khan Palace by 4nitsirk, on Flickr"><img src="http://farm4.staticflickr.com/3292/2810126895_88f88ba8ba_m.jpg" width="240" height="180" alt="Aga Khan Palace"></a>
