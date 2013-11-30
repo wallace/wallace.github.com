@@ -18,7 +18,8 @@ Weechat has two main ways to extend its stock functionality, scripts and plugins
 
 Since I use scripts from perl, python and ruby I make sure to install weechat with support for those languages.
 
-```$ brew install weechat --ruby --python --perl```
+~~$ brew install weechat --ruby --python --perl~~
+```$ brew install weechat --with-ruby --with-python --with-perl```
 
 ## Scripts
 
