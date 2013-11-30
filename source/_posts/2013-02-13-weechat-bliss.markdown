@@ -33,7 +33,7 @@ Once weechat has started, you may type ```/script help``` to get an interactive 
 
 ## Startup
 
-I currently run camper_van as a proxy to my work campfire rooms, so I run [camper_van](https://github.com/aniero/camper_van) in one terminal and then I set up a [custom profile with a handy shortcut and startup command in iTerm2 to start up weechat](https://www.evernote.com/shard/s2/sh/c42cd246-a62e-481f-abbe-883983ac1016/794e8070a80d96a8b0f2bdf9c2320dc9/res/84d089e9-0852-49c2-b3e6-2150411b51b6/skitch.png).  
+I currently run camper_van as a proxy to my work campfire rooms, so I run ~~[camper_van](https://github.com/aniero/camper_van)~~ [camper_van](https://github.com/zerowidth/camper_van) in one terminal and then I set up a [custom profile with a handy shortcut and startup command in iTerm2 to start up weechat](https://www.evernote.com/shard/s2/sh/c42cd246-a62e-481f-abbe-883983ac1016/794e8070a80d96a8b0f2bdf9c2320dc9/res/84d089e9-0852-49c2-b3e6-2150411b51b6/skitch.png).  
 
 ## Configuration
 
