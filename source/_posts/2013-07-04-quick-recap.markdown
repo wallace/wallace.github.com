@@ -26,7 +26,7 @@ The same week that I was getting [obfuscated accolades from the very top](http:/
 
 ### Gaming
 
-My team tied for second at the [Athens Game Jam](http://athensgamejam.com/). The theme was bad luck.  In our game, [Nice Job Hero!](marilynccole.com/nice-job-hero), a hero wrecks the city in pursuit of beating the bad guys with no thought to what those effects have on the average person. Benedict is the unlucky soul who must follow up and deal with the side-effects of the hero. We built the game using [Unity3d](http://unity3d.com/) and you can check out our
+My team tied for second at the [Athens Game Jam](http://athensgamejam.com/). The theme was bad luck.  In our game, [Nice Job Hero!](http://marilynccole.com/nice-job-hero), a hero wrecks the city in pursuit of beating the bad guys with no thought to what those effects have on the average person. Benedict is the unlucky soul who must follow up and deal with the side-effects of the hero. We built the game using [Unity3d](http://unity3d.com/) and you can check out our
 [source](https://github.com/wallace/nice-job-hero).
 
 ### Civil Service
