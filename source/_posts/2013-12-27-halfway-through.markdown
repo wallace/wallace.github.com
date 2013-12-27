@@ -16,7 +16,7 @@ I often despair when I write down all the things that I want to do and must do a
 
 Instead, I'm happy to announce that we're finally headed to Vancouver in February to visit our great friends, the Matheos family. This trip is something Kristina has dreamed about for many years and I'm happy that we're finally able ot make it happen. We're billing this as our 10 year anniversary present since May 29, 2014 marks ten years of wedded bliss! 
 
-On a more technical front, I've finally bitten the bullet and learned a little about minecraft. For my Christmas gift to Chloe and Callie, I've set up a minecraft pocket edition server. This was not as easy as I hoped it would be. It required some time in the IRC channels but I finally stumbled onto the correct sequence of commands to set it up, https://github.com/PocketMine/PocketMine-MP/issues/1012#issuecomment-31226235.
+On a more technical front, I've finally bitten the bullet and learned a little about minecraft. For my Christmas gift to Chloe and Callie, I've set up a minecraft pocket edition server. This was not as easy as I hoped it would be. It required some time in the IRC channels but I finally stumbled onto the correct sequence of commands to set it up, [https://github.com/PocketMine/PocketMine-MP/issues/1012#issuecomment-31226235](https://github.com/PocketMine/PocketMine-MP/issues/1012#issuecomment-31226235).
 
 That todo list is still waiting for me and I hope to knock a few items more off
 before returning to work in January including a year-in-review post.
