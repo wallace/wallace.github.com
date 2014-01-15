@@ -6,8 +6,9 @@ comments: true
 categories:
 ---
 
-Starting last September, I volunteered to teach to be the robotics lead for the
-local 4H extension office. Check out the post inside to see some cool videos.
+Starting last September, I volunteered to teach and to be the robotics lead for
+the local 4H extension office. Check out the post inside to see some cool
+videos.
 
 <a href="http://www.flickr.com/photos/bonaparty/6223120971/" title="T-800 Terminator by Louis K., on Flickr"><img src="http://farm7.staticflickr.com/6169/6223120971_34a94e88b6_m.jpg" width="240" height="160" alt="T-800 Terminator"></a>
 
