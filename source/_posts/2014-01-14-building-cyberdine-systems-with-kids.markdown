@@ -42,4 +42,4 @@ January meetup.
 The chicken and grasshoper are based off the instructions in the excellent book NXT One-Kit
 Creatures. Full disclosure, that's an affiliate link to the book below.
 
-<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=twominspa-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B004K1EZMY" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<a href="http://www.amazon.com/gp/product/B004K1EZMY/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B004K1EZMY&linkCode=as2&tag=twominspa-20">NXT One-Kit Creatures : Five Designs for the LEGO MINDSTORMS NXT 1.0 or 2.0 Kit</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=twominspa-20&l=as2&o=1&a=B004K1EZMY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
