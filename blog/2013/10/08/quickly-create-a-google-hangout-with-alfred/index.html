@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Quickly create a Google hangout with Alfred - Two minute spates</title>
+  <meta name="author" content="Jonathan R Wallace">
+
+  
+  <meta name="description" content="At Big Nerd Ranch, we set up our lita clone (a ruby based chat bot similar to hubot) so that it would generate Google hangout links for us that would &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://wallace.github.com/blog/2013/10/08/quickly-create-a-google-hangout-with-alfred/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Two minute spates" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17849900-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:wallace.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+    <li><a href="/">
+        <span class="blue_light">
+            Two minute spates
+        </span>
+       
+           <span class="blue_dark">
+             Levelling up in ALL the things
+           </span>
+       
+    </a></li>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Quickly Create a Google Hangout With Alfred</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-08T20:40:00-04:00" pubdate data-updated="true">Oct 8<sup>th</sup>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>At <a href="http://bignerdranch.com">Big Nerd Ranch</a>, we set up our <a href="https://github.com/jimmycuadra/lita">lita clone</a> (a ruby based chat bot similar to <a href="https://github.com/github/hubot">hubot</a>) so that it would generate Google hangout links for us that would allow us to quickly share the URL with a co-worker or client. But times, they be a changin&#8217;.</p>
+
+<p><a href="http://upload.wikimedia.org/wikipedia/commons/9/97/Barack_Obama_hangout.jpg" title="President Obama Google Hangout"><img src="http://upload.wikimedia.org/wikipedia/commons/9/97/Barack_Obama_hangout.jpg" width="240" height="73" alt="president_obama_google_hangout"></a></p>
+
+<!-- more -->
+
+
+<p>Our bot functionality was ultimately based on a hack of Google hangout URLs&hellip;
+which no longer works.</p>
+
+<p>From <a href="http://iamvery.com/">Jay</a><a href="https://twitter.com/iamvery">Hayes</a>:</p>
+
+<blockquote><p>The &ldquo;old&rdquo; implementation of nerdbot hangouts depended on the fact that G+
+hangouts attached to events have static URLs. The &ldquo;trick&rdquo; was to create a G+
+event far in the future and copy the URL to the attached hangout to a list
+maintained in the Nerdbot&rsquo;s environment.</p>
+
+<p>Now it seems that G+ event hangout links expire just like &ldquo;regular&rdquo; hangouts
+after some time. :sob:</p></blockquote>
+
+<p>We have a few ideas floating around about how to recreate the bot functionality
+but they are a bit involved. One of the key challenges is that you must be
+authenticated with Google to request a hangout.</p>
+
+<p>Today, I realized that <a href="http://blog.jonathanrwallace.com/blog/2013/02/02/quickr-flickr-search/">one of my favorite tools, Alfred,</a>
+should be able to help out.</p>
+
+<p>A few shaved yaks later and :boom:, a <a href="https://github.com/wallace/google_hangout_workflow">new alfred workflow for creating a google hangout</a>. <a href="https://github.com/wallace/google_hangout_workflow/raw/master/Google%20Hangout.alfredworkflow">Download it directly</a>. Enjoy!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jonathan R Wallace</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-08T20:40:00-04:00" pubdate data-updated="true">Oct 8<sup>th</sup>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/09/21/octopress-love-twitter-update/" title="Previous Post: Octopress love; twitter update">&laquo; Octopress love; twitter update</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/10/17/so-you-want-to-go-to-india/" title="Next Post: So you want to go to India">So you want to go to India &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/07/15/my-first-haskell/">my first haskell</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/06/my-code-retreat-syllabus/">my code retreat syllabus</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/06/12/year-in-review/">Year in review</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails/">URL Rewriting for Sub Uris in Rails</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/14/building-cyberdine-systems-with-kids/">Building cyberdine systems with kids</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/jonathanwallace"  data-widget-id="381493626074697728"  data-link-color="#1863a1" data-tweet-limit="2" data-chrome="noheader nofooter transparent noscrollbar">Tweets by @jonathanwallace</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </ul>
+  
+    <a href="http://twitter.com/jonathanwallace" class="twitter-follow-button" data-show-count="false">Follow @jonathanwallace</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/wallace">@wallace</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'wallace',
+            count: 4,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Jonathan R Wallace -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

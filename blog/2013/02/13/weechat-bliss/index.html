@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Weechat Bliss - Two minute spates</title>
+  <meta name="author" content="Jonathan R Wallace">
+
+  
+  <meta name="description" content="Back in Weechat Karmageddon, I spoke about a script I wrote to make giving hubot karma easy-peasy. In this post, we&rsquo;ll talk about the rest of &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://wallace.github.com/blog/2013/02/13/weechat-bliss/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Two minute spates" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17849900-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:wallace.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+    <li><a href="/">
+        <span class="blue_light">
+            Two minute spates
+        </span>
+       
+           <span class="blue_dark">
+             Levelling up in ALL the things
+           </span>
+       
+    </a></li>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Weechat Bliss</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-13T18:11:00-05:00" pubdate data-updated="true">Feb 13<sup>th</sup>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Back in <a href="http://blog.jonathanrwallace.com/blog/2013/01/17/weechat-karmageddon/">Weechat Karmageddon</a>, I spoke about a script I wrote to make giving hubot karma easy-peasy.  In this post, we&rsquo;ll talk about the rest of my weechat setup.</p>
+
+<p><a href="http://www.flickr.com/photos/superfantastic/50088733/" title="Buddha dog by SuperFantastic, on Flickr"><img src="http://farm1.staticflickr.com/32/50088733_58935531ce_m.jpg" width="240" height="160" alt="Buddha dog"></a></p>
+
+<!-- more -->
+
+
+<h2>Overview</h2>
+
+<p>Weechat has two main ways to extend its stock functionality, scripts and plugins. Plugins are C programs that are dynamically loaded. Writing C programs to extend my IRC client is more work than I care for so I stick to scripts.</p>
+
+<p>Since I use scripts from perl, python and ruby I make sure to install weechat with support for those languages.</p>
+
+<p><del>$ brew install weechat &mdash;ruby &mdash;python &mdash;perl</del>
+<code>$ brew install weechat --with-ruby --with-python --with-perl</code></p>
+
+<h2>Scripts</h2>
+
+<p>Here&rsquo;s a quick list of scripts that I use regularly:</p>
+
+<ul>
+<li><a href="https://github.com/wallace/weechat-notification-center-rb">weechat-notification-center-rb</a> &mdash; notifies you in Mac OS X Notification center</li>
+<li><a href="https://github.com/wallace/weechat-nerdbot-karma">weechat-nerdbot-karma</a> &mdash; bestows karma, nerdbot style</li>
+<li><a href="http://www.weechat.org/scripts/source/buffers.pl.html/">buffers.pl</a> &mdash; lists your current buffers</li>
+<li><a href="http://www.weechat.org/scripts/source/urlgrab.py.html/">urlgrab.py</a> &mdash; quickly open up links of the cat images shared by coworkers</li>
+</ul>
+
+
+<p>Once weechat has started, you may type <code>/script help</code> to get an interactive script manager.  Unofficial scripts will not be listed in the interactive script manager so you&rsquo;ll need to follow the installation instructions for <a href="https://github.com/wallace/weechat-notification-center-rb">weechat-notification-center-rb</a> and <a href="https://github.com/wallace/weechat-nerdbot-karma">weechat-nerdbot-karma</a>.</p>
+
+<h2>Startup</h2>
+
+<p>I currently run camper_van as a proxy to my work campfire rooms, so I run <del><a href="https://github.com/aniero/camper_van">camper_van</a></del> <a href="https://github.com/zerowidth/camper_van">camper_van</a> in one terminal and then I set up a <a href="https://www.evernote.com/shard/s2/sh/c42cd246-a62e-481f-abbe-883983ac1016/794e8070a80d96a8b0f2bdf9c2320dc9/res/84d089e9-0852-49c2-b3e6-2150411b51b6/skitch.png">custom profile with a handy shortcut and startup command in iTerm2 to start up weechat</a>.</p>
+
+<h2>Configuration</h2>
+
+<p>Here&rsquo;s an example irc.conf for weechat.</p>
+
+<div><script src='https://gist.github.com/4949912.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+
+
+<p>I had to make a slight modification to how urlgrab worked so here&rsquo;s my urlgrab.conf file.  I believe it was adding quotes around %s for localcmd.</p>
+
+<div><script src='https://gist.github.com/4949942.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+
+
+<h2>Usage</h2>
+
+<p>I switch buffers with <code>/b &lt;buffer number</code>.  I bestow karma via <code>/karma &lt;name&gt; &lt;amount&gt;</code>.  And examining urls is a snap with <code>/url &lt;ordinal position of url most recent first&gt;</code> e.g., <code>/url 1</code> opens up the most recent url in the current buffer.</p>
+
+<h2>Coming up</h2>
+
+<p>You may look forward to what I had to do to install camper_van (war story!) and another plugin to start camper_van in the background as a hook_process on weechat so there&rsquo;s no need to run camper_van in its own terminal.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jonathan R Wallace</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-13T18:11:00-05:00" pubdate data-updated="true">Feb 13<sup>th</sup>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/02/02/quickr-flickr-search/" title="Previous Post: quickr flickr search">&laquo; quickr flickr search</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/07/04/quick-recap/" title="Next Post: Quick-Recap">Quick-Recap &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/07/15/my-first-haskell/">my first haskell</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/06/my-code-retreat-syllabus/">my code retreat syllabus</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/06/12/year-in-review/">Year in review</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails/">URL Rewriting for Sub Uris in Rails</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/14/building-cyberdine-systems-with-kids/">Building cyberdine systems with kids</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/jonathanwallace"  data-widget-id="381493626074697728"  data-link-color="#1863a1" data-tweet-limit="2" data-chrome="noheader nofooter transparent noscrollbar">Tweets by @jonathanwallace</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </ul>
+  
+    <a href="http://twitter.com/jonathanwallace" class="twitter-follow-button" data-show-count="false">Follow @jonathanwallace</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/wallace">@wallace</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'wallace',
+            count: 4,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Jonathan R Wallace -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

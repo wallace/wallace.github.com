@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>my first haskell - Two minute spates</title>
+  <meta name="author" content="Jonathan R Wallace">
+
+  
+  <meta name="description" content="Last week I shared my secrets to an amazing code retreat. Since then Big Nerd Ranch held an internal code retreat (thanks Stafford) and although I &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://wallace.github.com/blog/2014/07/15/my-first-haskell/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Two minute spates" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-17849900-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:wallace.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+    <li><a href="/">
+        <span class="blue_light">
+            Two minute spates
+        </span>
+       
+           <span class="blue_dark">
+             Levelling up in ALL the things
+           </span>
+       
+    </a></li>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About me</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">My First Haskell</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-07-15T15:18:00-04:00" pubdate data-updated="true">Jul 15<sup>th</sup>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Last week I shared my <a href="/blog/2014/07/06/my-code-retreat-syllabus/index.html">secrets to an amazing code retreat</a>. Since then <a href="http://bignerdranch.com">Big Nerd Ranch</a> held an internal code retreat (thanks <a href="https://twitter.com/srbiv">Stafford</a>) and although I was only able to participate for a couple of sessions due to client work, I learned a couple of things and got to play with a new language. Can you guess which one?!? Read on to found out.</p>
+
+<p><a href="https://www.flickr.com/photos/rockandracehorses/3783326324" title="Born To Run! Rachel Alexandra and Calvin Borel win the $1.25 million Haskell Invitational by Sarah K. Andrew, on Flickr"><img src="https://farm4.staticflickr.com/3110/3783326324_154fe1441d_m.jpg" width="240" height="180" alt="Born To Run! Rachel Alexandra and Calvin Borel win the $1.25 million Haskell Invitational"></a></p>
+
+<!-- more -->
+
+
+<p>Though I&rsquo;ve stated many times how valuable I find code retreats to be, I&rsquo;m still impressed at how I continue to learn at a consistent rate each time I attend or facilitate. Lucky for me, this time I was able to participate which is so much fun.</p>
+
+<p>I had three experiences that I&rsquo;d like to share.</p>
+
+<ol>
+<li>Way way back when, I shared <a href="http://www.bignerdranch.com/blog/lessons-learned-at-global-day-of-coderetreat/">what I learned at my first code retreat</a>. Knowing how equality works in Ruby is a little tricky and understanding the importance of the hash and eql methods is key. But you can also get away with using the Comparable module (thanks <a href="http://stevenharman.net/">Steven Harman</a>).</li>
+</ol>
+
+
+<div><script src='https://gist.github.com/4a0d0f0403a2b85b383f.js?file=point.rb'></script>
+<noscript><pre><code>class Point
+  include Comparable
+
+  attr_accessor :x, :y
+  def initialize(x,y)
+    @x = x
+    @y = y
+  end
+
+  def &lt;=&gt;(other)
+    return -1 if self.x &lt; other.x
+    return 0 if self.x == other.x &amp;&amp; self.y == other.y
+    return 1 if self.x &gt; other.x
+  end
+end
+
+puts &quot;different points are different #{ Point.new(1,1) != Point.new(1,2) } &quot;
+puts &quot;same points are same #{ Point.new(1,1) == Point.new(1,1) } &quot;</code></pre></noscript></div>
+
+
+<ol>
+<li><p>As I mentioned above, I only experienced two full sessions. I was interuppted in the third session where we were constrained to using mute ping-pong TDD. But what was interesting is how in the few minutes we did share, I started with a full integration test. This stumped my partner. And to be honest, it was a little unfair as there&rsquo;s no way he could write a passing test without resorting to some nefarious behaviors. I later found out that we weren&rsquo;t the only ones who found starting with a high level integration test challenging when we weren&rsquo;t able to vocally coordinate with our partner. There&rsquo;s got to be some profound insight related to documentation, abstraction and code rot over time.</p></li>
+<li><p>Finally, what I&rsquo;m most excited about is that I was able to pair with <a href="https://twitter.com/letsbreelhere">Bree Stanwyck</a> and we used Haskell. This was the first time I was exposed to Haskell other than via a presentation and we managed, with tests, to get a <a href="https://gist.github.com/breestanwyck/479faa4a274f7278b5fb">functioning Haskell GoL implementation</a> within the session. I was very impressed with Haskell and look forward to exploring it more in the near future. The elegance and simplicity allows the intent of the GoL algorithm to shine through.</p></li>
+</ol>
+
+
+<p>For my next step, I&rsquo;m planning on working through <a href="http://learnyouahaskell.com/">http://learnyouahaskell.com/</a>.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jonathan R Wallace</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-07-15T15:18:00-04:00" pubdate data-updated="true">Jul 15<sup>th</sup>, 2014</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/07/06/my-code-retreat-syllabus/" title="Previous Post: my code retreat syllabus">&laquo; my code retreat syllabus</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/07/15/my-first-haskell/">my first haskell</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/06/my-code-retreat-syllabus/">my code retreat syllabus</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/06/12/year-in-review/">Year in review</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails/">URL Rewriting for Sub Uris in Rails</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/14/building-cyberdine-systems-with-kids/">Building cyberdine systems with kids</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/jonathanwallace"  data-widget-id="381493626074697728"  data-link-color="#1863a1" data-tweet-limit="2" data-chrome="noheader nofooter transparent noscrollbar">Tweets by @jonathanwallace</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </ul>
+  
+    <a href="http://twitter.com/jonathanwallace" class="twitter-follow-button" data-show-count="false">Follow @jonathanwallace</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/wallace">@wallace</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'wallace',
+            count: 4,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Jonathan R Wallace -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
