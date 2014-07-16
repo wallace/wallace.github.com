@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Two minute spates]]></title>
-  <link href="http://wallace.github.com/atom.xml" rel="self"/>
-  <link href="http://wallace.github.com/"/>
-  <updated>2014-07-16T10:53:49-04:00</updated>
-  <id>http://wallace.github.com/</id>
+  <link href="http://blog.jonathanrwallace.com/atom.xml" rel="self"/>
+  <link href="http://blog.jonathanrwallace.com/"/>
+  <updated>2014-07-16T11:05:04-04:00</updated>
+  <id>http://blog.jonathanrwallace.com/</id>
   <author>
     <name><![CDATA[Jonathan R Wallace]]></name>
     
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[my first haskell]]></title>
-    <link href="http://wallace.github.com/blog/2014/07/15/my-first-haskell/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2014/07/15/my-first-haskell/"/>
     <updated>2014-07-15T15:18:00-04:00</updated>
-    <id>http://wallace.github.com/blog/2014/07/15/my-first-haskell</id>
-    <content type="html"><![CDATA[<p>Last week I shared my <a href="http://wallace.github.com/blog/2014/07/06/my-code-retreat-syllabus/index.html">secrets to an amazing code retreat</a>. Since then <a href="http://bignerdranch.com">Big Nerd Ranch</a> held an internal code retreat (thanks <a href="https://twitter.com/srbiv">Stafford</a>) and although I was only able to participate for a couple of sessions due to client work, I learned a couple of things and got to play with a new language. Can you guess which one?!? Read on to found out.</p>
+    <id>http://blog.jonathanrwallace.com/blog/2014/07/15/my-first-haskell</id>
+    <content type="html"><![CDATA[<p>Last week I shared my <a href="http://blog.jonathanrwallace.com/blog/2014/07/06/my-code-retreat-syllabus/index.html">secrets to an amazing code retreat</a>. Since then <a href="http://bignerdranch.com">Big Nerd Ranch</a> held an internal code retreat (thanks <a href="https://twitter.com/srbiv">Stafford</a>) and although I was only able to participate for a couple of sessions due to client work, I learned a couple of things and got to play with a new language. Can you guess which one?!? Read on to found out.</p>
 
 <p><a href="https://www.flickr.com/photos/rockandracehorses/3783326324" title="Born To Run! Rachel Alexandra and Calvin Borel win the $1.25 million Haskell Invitational by Sarah K. Andrew, on Flickr"><img src="https://farm4.staticflickr.com/3110/3783326324_154fe1441d_m.jpg" width="240" height="180" alt="Born To Run! Rachel Alexandra and Calvin Borel win the $1.25 million Haskell Invitational"></a></p>
 
@@ -67,10 +67,10 @@ puts &quot;same points are same #{ Point.new(1,1) == Point.new(1,1) } &quot;</co
   
   <entry>
     <title type="html"><![CDATA[my code retreat syllabus]]></title>
-    <link href="http://wallace.github.com/blog/2014/07/06/my-code-retreat-syllabus/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2014/07/06/my-code-retreat-syllabus/"/>
     <updated>2014-07-06T21:39:00-04:00</updated>
-    <id>http://wallace.github.com/blog/2014/07/06/my-code-retreat-syllabus</id>
-    <content type="html"><![CDATA[<p>You may have heard about <a href="http://wallace.github.com/blog/2013/07/04/quick-recap/index.html">my adventures</a> with <a href="http://wallace.github.com/blog/2014/06/12/year-in-review/index.html">code retreats</a>. I greatly enjoy facilitating and participating and over the years I&rsquo;ve come up with a base itinerary. You can find the official structure <a href="http://coderetreat.org/facilitating/structure-of-a-coderetreat">here</a>. This is more of my specific predilections. The day won&rsquo;t follow this exactly and will vary according to skill level and participants interest but read on to see what I enjoy.</p>
+    <id>http://blog.jonathanrwallace.com/blog/2014/07/06/my-code-retreat-syllabus</id>
+    <content type="html"><![CDATA[<p>You may have heard about <a href="http://blog.jonathanrwallace.com/blog/2013/07/04/quick-recap/index.html">my adventures</a> with <a href="http://blog.jonathanrwallace.com/blog/2014/06/12/year-in-review/index.html">code retreats</a>. I greatly enjoy facilitating and participating and over the years I&rsquo;ve come up with a base itinerary. You can find the official structure <a href="http://coderetreat.org/facilitating/structure-of-a-coderetreat">here</a>. This is more of my specific predilections. The day won&rsquo;t follow this exactly and will vary according to skill level and participants interest but read on to see what I enjoy.</p>
 
 <p><a href="https://www.flickr.com/photos/auteurdecinema/6157383349" title="Self-improvement in progress! by Kenneth Law, on Flickr"><img src="https://farm7.staticflickr.com/6199/6157383349_77ef7d33dd_m.jpg" width="240" height="240" alt="Self-improvement in progress!"></a></p>
 
@@ -136,10 +136,10 @@ puts &quot;same points are same #{ Point.new(1,1) == Point.new(1,1) } &quot;</co
   
   <entry>
     <title type="html"><![CDATA[Year in review]]></title>
-    <link href="http://wallace.github.com/blog/2014/06/12/year-in-review/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2014/06/12/year-in-review/"/>
     <updated>2014-06-12T09:28:00-04:00</updated>
-    <id>http://wallace.github.com/blog/2014/06/12/year-in-review</id>
-    <content type="html"><![CDATA[<p>Way back in <a href="http://wallace.github.com/blog/2014/01/14/building-cyberdine-systems-with-kids/">December</a>, I promised that I would provide a year in review update. Finally, here it is.</p>
+    <id>http://blog.jonathanrwallace.com/blog/2014/06/12/year-in-review</id>
+    <content type="html"><![CDATA[<p>Way back in <a href="http://blog.jonathanrwallace.com/blog/2014/01/14/building-cyberdine-systems-with-kids/">December</a>, I promised that I would provide a year in review update. Finally, here it is.</p>
 
 <p><a href="https://www.flickr.com/photos/pagedooley/8349362069" title="Symphony for 2013 by Kevin Dooley, on Flickr"><img src="https://farm9.staticflickr.com/8518/8349362069_380fe20922_n.jpg" width="320" height="143" alt="Symphony for 2013"></a></p>
 
@@ -148,20 +148,20 @@ puts &quot;same points are same #{ Point.new(1,1) == Point.new(1,1) } &quot;</co
 
 <p>Good grief, my year in review for 2013 lands halfway into 2014! Don&rsquo;t they say that you need perspective to properly judge the past?</p>
 
-<p>I <a href="http://wallace.github.com/blog/2013/01/06/athens-developers-rejoice/">co-founded</a> and co-ran the <a href="http://developersofathens.com">Developers of Athens</a> group (neé <a href="http://meetup.com/Greater-Athens-Area-Software-Developers/">Greater Athens Area Software Developer Group</a>) for 2013. <a href="https://twitter.com/travisdouce">Travis Douce</a>, <a href="http://www.pendragondevelopment.com/">Jordan Burke</a> and <a href="http://glennstovall.com/">Glenn Stovall</a> took over as organizers and have been doing wonderful things. One of the other really awesome things is that Jordan met his cofounder at the meetup and started <a href="http://www.getvitaminc.com/">Vitamin C</a>.</p>
+<p>I <a href="http://blog.jonathanrwallace.com/blog/2013/01/06/athens-developers-rejoice/">co-founded</a> and co-ran the <a href="http://developersofathens.com">Developers of Athens</a> group (neé <a href="http://meetup.com/Greater-Athens-Area-Software-Developers/">Greater Athens Area Software Developer Group</a>) for 2013. <a href="https://twitter.com/travisdouce">Travis Douce</a>, <a href="http://www.pendragondevelopment.com/">Jordan Burke</a> and <a href="http://glennstovall.com/">Glenn Stovall</a> took over as organizers and have been doing wonderful things. One of the other really awesome things is that Jordan met his cofounder at the meetup and started <a href="http://www.getvitaminc.com/">Vitamin C</a>.</p>
 
-<p>I was a <a href="http://wallace.github.com/blog/2014/01/14/building-cyberdine-systems-with-kids/">4H robotics instructor</a>.</p>
+<p>I was a <a href="http://blog.jonathanrwallace.com/blog/2014/01/14/building-cyberdine-systems-with-kids/">4H robotics instructor</a>.</p>
 
 <p>I organized and facilitated the <a href="https://www.eventbrite.com/e/athens-code-retreat-2013-tickets-3788649954">2013 Athens Code Retreat</a> (with a little help from Travis Douce).</p>
 
-<p>I spoke at <a href="https://twitter.com/IndianGuru/status/333158779917045760">RubyConf India</a>, <a href="http://wallace.github.com/blog/2013/09/21/good-news-everyone/">Rubyconf</a>, and a <a href="http://www.bignerdranch.com/">Big Nerd Ranch</a> Tech Talk on <a href="https://vimeo.com/81416284">effective debugging in ruby</a>.</p>
+<p>I spoke at <a href="https://twitter.com/IndianGuru/status/333158779917045760">RubyConf India</a>, <a href="http://blog.jonathanrwallace.com/blog/2013/09/21/good-news-everyone/">Rubyconf</a>, and a <a href="http://www.bignerdranch.com/">Big Nerd Ranch</a> Tech Talk on <a href="https://vimeo.com/81416284">effective debugging in ruby</a>.</p>
 
 <p>Other cool Big Nerd Ranch things that I can talk about include helping out at
 three different recruitment fairs, helping out with sales and estimates as a technical contributor, being chosen for the first Leadership Development program and <a href="http://www.bignerdranch.com/blog/serving-you-better-a-new-structure-for-our-team/">helping with our new organizational structure and becoming a backend manager</a>. This was in addition to launching a huge refactor for some customer work as well as leading other developers on the project and setting up onboarding documentation for the same project.</p>
 
 <p>Tangentially related, I had a hand in both Travis Douce and Charlie Maffitt coming aboard at Big Nerd Ranch.</p>
 
-<p>And finally, my team got <a href="http://wallace.github.com/blog/2013/07/04/quick-recap/">2nd place at the 2013 Athens Game Jam</a> for <a href="http://marilynccole.com/nice-job-hero">Nice Job Hero!</a>.</p>
+<p>And finally, my team got <a href="http://blog.jonathanrwallace.com/blog/2013/07/04/quick-recap/">2nd place at the 2013 Athens Game Jam</a> for <a href="http://marilynccole.com/nice-job-hero">Nice Job Hero!</a>.</p>
 
 <p>That&rsquo;s a pretty busy 2013 and I&rsquo;m definitely feeling that 2014 is stacking up competitively. Great things have already happened that I haven&rsquo;t even had the time to share yet but SOON&trade;.</p>
 
@@ -171,9 +171,9 @@ three different recruitment fairs, helping out with sales and estimates as a tec
   
   <entry>
     <title type="html"><![CDATA[URL Rewriting for Sub Uris in Rails]]></title>
-    <link href="http://wallace.github.com/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails/"/>
     <updated>2014-02-27T22:27:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails</id>
+    <id>http://blog.jonathanrwallace.com/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails</id>
     <content type="html"><![CDATA[<p>In the good ol&#8217; days, when we used to walk up hill through the snow to school both ways, the Rails deployment process wasn&rsquo;t as simple as pushing to heroku. You might have signed up with a custom rails hosting provider or used a shared hosting provider. You may have had to configure Apache to use subdomains or even suburis. Now, most of these issues have been abstracted away. But not all the time.</p>
 
 <p>A few weeks ago, a <a href="https://twitter.com/Pvolitans">good friend of mine</a> found himself in the situation where you access the Rails app via aSubURI. Read on to find out what the challenges were for him and how we solved them.</p>
@@ -204,9 +204,9 @@ three different recruitment fairs, helping out with sales and estimates as a tec
   
   <entry>
     <title type="html"><![CDATA[Building cyberdine systems with kids]]></title>
-    <link href="http://wallace.github.com/blog/2014/01/14/building-cyberdine-systems-with-kids/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2014/01/14/building-cyberdine-systems-with-kids/"/>
     <updated>2014-01-14T21:52:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2014/01/14/building-cyberdine-systems-with-kids</id>
+    <id>http://blog.jonathanrwallace.com/blog/2014/01/14/building-cyberdine-systems-with-kids</id>
     <content type="html"><![CDATA[<p>Starting last September, I volunteered to teach and to be the robotics lead for
 the local 4H extension office. Check out the post inside to see some cool
 videos.</p>
@@ -268,9 +268,9 @@ Creatures. Full disclosure, that&rsquo;s an affiliate link to the book below.</p
   
   <entry>
     <title type="html"><![CDATA[Halfway Through]]></title>
-    <link href="http://wallace.github.com/blog/2013/12/27/halfway-through/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/12/27/halfway-through/"/>
     <updated>2013-12-27T14:41:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2013/12/27/halfway-through</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/12/27/halfway-through</id>
     <content type="html"><![CDATA[<p>We&rsquo;re halfway through the winter holidays and I&rsquo;m not even close to halfway through my holiday vacation todo list. <em>sigh</em> But, there&rsquo;re good things a brewin&#8217;.</p>
 
 <p><a href="http://www.flickr.com/photos/amagill/29207183/" title="Vancouver pan by AMagill, on Flickr"><img src="http://farm1.staticflickr.com/22/29207183_29437e18a9_m.jpg" width="240" height="75" alt="Vancouver pan"></a></p>
@@ -291,9 +291,9 @@ before returning to work in January including a year-in-review post.</p>
   
   <entry>
     <title type="html"><![CDATA[So you want to go to India]]></title>
-    <link href="http://wallace.github.com/blog/2013/10/17/so-you-want-to-go-to-india/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/10/17/so-you-want-to-go-to-india/"/>
     <updated>2013-10-17T09:03:00-04:00</updated>
-    <id>http://wallace.github.com/blog/2013/10/17/so-you-want-to-go-to-india</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/10/17/so-you-want-to-go-to-india</id>
     <content type="html"><![CDATA[<p><strong>Edit: How quickly information becomes stale. Before I had even written this post, the process for acquiring a VISA to visit India had already changed. In fact, it changed just a few short months after I went through the process. Instead of any of the below, go to <a href="http://www.visa.blsindia-usa.com/">http://www.visa.blsindia-usa.com/</a> and follow the instructions.</strong></p>
 
 <p>As I mentioned in <a href="http://blog.jonathanrwallace.com/blog/2013/09/21/good-news-everyone/">an earlier post</a>, I greatly enjoyed my visit to India. However, there was a great deal of work to be permitted to travel there. In this post, we discuss what was involved in the preparation.</p>
@@ -331,9 +331,9 @@ before returning to work in January including a year-in-review post.</p>
   
   <entry>
     <title type="html"><![CDATA[Quickly create a Google hangout with Alfred]]></title>
-    <link href="http://wallace.github.com/blog/2013/10/08/quickly-create-a-google-hangout-with-alfred/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/10/08/quickly-create-a-google-hangout-with-alfred/"/>
     <updated>2013-10-08T20:40:00-04:00</updated>
-    <id>http://wallace.github.com/blog/2013/10/08/quickly-create-a-google-hangout-with-alfred</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/10/08/quickly-create-a-google-hangout-with-alfred</id>
     <content type="html"><![CDATA[<p>At <a href="http://bignerdranch.com">Big Nerd Ranch</a>, we set up our <a href="https://github.com/jimmycuadra/lita">lita clone</a> (a ruby based chat bot similar to <a href="https://github.com/github/hubot">hubot</a>) so that it would generate Google hangout links for us that would allow us to quickly share the URL with a co-worker or client. But times, they be a changin&#8217;.</p>
 
 <p><a href="http://upload.wikimedia.org/wikipedia/commons/9/97/Barack_Obama_hangout.jpg" title="President Obama Google Hangout"><img src="http://upload.wikimedia.org/wikipedia/commons/9/97/Barack_Obama_hangout.jpg" width="240" height="73" alt="president_obama_google_hangout"></a></p>
@@ -367,9 +367,9 @@ should be able to help out.</p>
   
   <entry>
     <title type="html"><![CDATA[Octopress love; twitter update]]></title>
-    <link href="http://wallace.github.com/blog/2013/09/21/octopress-love-twitter-update/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/09/21/octopress-love-twitter-update/"/>
     <updated>2013-09-21T16:12:00-04:00</updated>
-    <id>http://wallace.github.com/blog/2013/09/21/octopress-love-twitter-update</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/09/21/octopress-love-twitter-update</id>
     <content type="html"><![CDATA[<p>Tweets in the sidebar for your health!</p>
 
 <p><a href="http://www.flickr.com/photos/ken_c_lo/8097545949/" title="octopress by ken_c_lo, on Flickr"><img src="http://farm9.staticflickr.com/8335/8097545949_7d3cb17900_m.jpg" width="240" height="73" alt="octopress"></a></p>
@@ -401,9 +401,9 @@ too. You&rsquo;ll want to remove the old justin-kelly-theme and reinstall it. He
   
   <entry>
     <title type="html"><![CDATA[good news everyone]]></title>
-    <link href="http://wallace.github.com/blog/2013/09/21/good-news-everyone/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/09/21/good-news-everyone/"/>
     <updated>2013-09-21T13:55:00-04:00</updated>
-    <id>http://wallace.github.com/blog/2013/09/21/good-news-everyone</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/09/21/good-news-everyone</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve got some great news related to this image. And I&rsquo;ve got a new skill.</p>
 
 <p><a href="http://www.flickr.com/photos/annspan/5349619008/" title="The Pool at Loews by baekken, on Flickr"><img src="http://farm6.staticflickr.com/5282/5349619008_df3dc3ecd5_m.jpg" width="240" height="180" alt="The Pool at Loews"></a></p>
@@ -459,9 +459,9 @@ learn for some time now, making gifs where only one part of it moves.</p>
   
   <entry>
     <title type="html"><![CDATA[Quick-Recap]]></title>
-    <link href="http://wallace.github.com/blog/2013/07/04/quick-recap/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/07/04/quick-recap/"/>
     <updated>2013-07-04T10:18:00-04:00</updated>
-    <id>http://wallace.github.com/blog/2013/07/04/quick-recap</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/07/04/quick-recap</id>
     <content type="html"><![CDATA[<p>I feel guilty for letting my blog sit silent for the past five months. From presidents to games to around the world travels, here&rsquo;s a quick highlight reel of what&rsquo;s happened..</p>
 
 <p><a href="http://www.flickr.com/photos/63854529@N00/2921793692/" title="cappuccino dog (coffee) CIMG0108 by skeddy in NYC, on Flickr"><img src="http://farm4.staticflickr.com/3216/2921793692_257c6b7940_m.jpg" width="240" height="180" alt="cappuccino dog (coffee) CIMG0108"></a></p>
@@ -520,9 +520,9 @@ how I&rsquo;ll find the time to work on them all.</p>
   
   <entry>
     <title type="html"><![CDATA[Weechat Bliss]]></title>
-    <link href="http://wallace.github.com/blog/2013/02/13/weechat-bliss/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/02/13/weechat-bliss/"/>
     <updated>2013-02-13T18:11:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2013/02/13/weechat-bliss</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/02/13/weechat-bliss</id>
     <content type="html"><![CDATA[<p>Back in <a href="http://blog.jonathanrwallace.com/blog/2013/01/17/weechat-karmageddon/">Weechat Karmageddon</a>, I spoke about a script I wrote to make giving hubot karma easy-peasy.  In this post, we&rsquo;ll talk about the rest of my weechat setup.</p>
 
 <p><a href="http://www.flickr.com/photos/superfantastic/50088733/" title="Buddha dog by SuperFantastic, on Flickr"><img src="http://farm1.staticflickr.com/32/50088733_58935531ce_m.jpg" width="240" height="160" alt="Buddha dog"></a></p>
@@ -583,9 +583,9 @@ how I&rsquo;ll find the time to work on them all.</p>
   
   <entry>
     <title type="html"><![CDATA[quickr flickr search]]></title>
-    <link href="http://wallace.github.com/blog/2013/02/02/quickr-flickr-search/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/02/02/quickr-flickr-search/"/>
     <updated>2013-02-02T22:25:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2013/02/02/quickr-flickr-search</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/02/02/quickr-flickr-search</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve owed <a href="http://www.mikeskalnik.com/">skalnik</a> a debt ever since he introduced
 me to <a href="http://www.alfredapp.com/">Alfred</a>.</p>
 
@@ -607,9 +607,9 @@ me to <a href="http://www.alfredapp.com/">Alfred</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[ruby debugger protips]]></title>
-    <link href="http://wallace.github.com/blog/2013/02/01/ruby-debugger-protips/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/02/01/ruby-debugger-protips/"/>
     <updated>2013-02-01T22:05:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2013/02/01/ruby-debugger-protips</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/02/01/ruby-debugger-protips</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been a big fan of debuggers ever since my first gig, an internship with
 Cisco Systems in 2000, where I became very familiar with
 <a href="http://www.gnu.org/software/gdb/">gdb</a>.</p>
@@ -645,9 +645,9 @@ source FILE  executes a file containing debugger commands
   
   <entry>
     <title type="html"><![CDATA[resque-lonely job]]></title>
-    <link href="http://wallace.github.com/blog/2013/01/28/resque-lonely-job/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/01/28/resque-lonely-job/"/>
     <updated>2013-01-28T22:17:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2013/01/28/resque-lonely-job</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/01/28/resque-lonely-job</id>
     <content type="html"><![CDATA[<p>A new version of resque-lonely_job has been released!</p>
 
 <p><a href="http://www.flickr.com/photos/deutero/5243404190/" title="Alone  by Deutero, on Flickr"><img src="http://farm6.staticflickr.com/5126/5243404190_71f95e6ff1_m.jpg" width="240" height="145" alt="Alone "></a></p>
@@ -670,9 +670,9 @@ implemented the features they needed.  A huge thank you to <a href="https://gith
   
   <entry>
     <title type="html"><![CDATA[weechat karmageddon]]></title>
-    <link href="http://wallace.github.com/blog/2013/01/17/weechat-karmageddon/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/01/17/weechat-karmageddon/"/>
     <updated>2013-01-17T21:45:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2013/01/17/weechat-karmageddon</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/01/17/weechat-karmageddon</id>
     <content type="html"><![CDATA[<p>At <a href="http://bignerdranch.com">Big Nerd Ranch</a>, we often times use <a href="http://campfirenow.com/">campfire</a> for
 chat.  We&rsquo;ve integrated the awesome <a href="https://github.com/github/hubot">hubot</a> but
 with <a href="https://github.com/bignerdranch/nerdbot">our own little twist</a>.</p>
@@ -698,9 +698,9 @@ from within weechat.</p>
   
   <entry>
     <title type="html"><![CDATA[Sharing Files On Unix]]></title>
-    <link href="http://wallace.github.com/blog/2013/01/10/sharing-files-on-unix/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/01/10/sharing-files-on-unix/"/>
     <updated>2013-01-10T13:16:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2013/01/10/sharing-files-on-unix</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/01/10/sharing-files-on-unix</id>
     <content type="html"><![CDATA[<p>Here&rsquo;s a task I&rsquo;ve had to do many times and I&rsquo;m always looking one or two (or
 all) of the commands up on the interwebz.</p>
 
@@ -743,9 +743,9 @@ all) of the commands up on the interwebz.</p>
   
   <entry>
     <title type="html"><![CDATA[blogthemeception]]></title>
-    <link href="http://wallace.github.com/blog/2013/01/09/blogthemeception/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/01/09/blogthemeception/"/>
     <updated>2013-01-09T22:27:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2013/01/09/blogthemeception</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/01/09/blogthemeception</id>
     <content type="html"><![CDATA[<p>Meta post!</p>
 
 <p><a href="http://www.flickr.com/photos/hoyvinmayvin/4829169558/" title="Inception by Profound Whatever, on Flickr"><img src="http://farm5.staticflickr.com/4122/4829169558_6044b039a5_m.jpg" width="180" height="240" alt="Inception"></a></p>
@@ -772,9 +772,9 @@ for others to use.  Voila!  You too can now have the awesomeness of the
   
   <entry>
     <title type="html"><![CDATA[bugs be gone]]></title>
-    <link href="http://wallace.github.com/blog/2013/01/07/bugs-be-gone/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/01/07/bugs-be-gone/"/>
     <updated>2013-01-07T21:19:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2013/01/07/bugs-be-gone</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/01/07/bugs-be-gone</id>
     <content type="html"><![CDATA[<p>NO MOAR BUGZ!  One down, an infinite more to go.</p>
 
 <p><a href="http://www.flickr.com/photos/staflo/7697379948/" title="fly session by staflo, on Flickr"><img src="http://farm8.staticflickr.com/7261/7697379948_59b2b0d828_m.jpg" width="240" height="240" alt="fly session"></a></p>
@@ -802,9 +802,9 @@ to be released you can do the following:</p>
   
   <entry>
     <title type="html"><![CDATA[Athens Developers Rejoice]]></title>
-    <link href="http://wallace.github.com/blog/2013/01/06/athens-developers-rejoice/"/>
+    <link href="http://blog.jonathanrwallace.com/blog/2013/01/06/athens-developers-rejoice/"/>
     <updated>2013-01-06T17:20:00-05:00</updated>
-    <id>http://wallace.github.com/blog/2013/01/06/athens-developers-rejoice</id>
+    <id>http://blog.jonathanrwallace.com/blog/2013/01/06/athens-developers-rejoice</id>
     <content type="html"><![CDATA[<p><a href="http://www.brownwebdesign.com/">Jess Brown</a> and I have started a <a href="http://www.meetup.com/Greater-Athens-Area-Software-Developers/">software developer&rsquo;s group in Athens</a>.  We
 want to ensure that the technology industry in and around Athens continues to be
 vibrant and grow.  We also tired of driving to Atlanta for all the great
