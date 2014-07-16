@@ -16,13 +16,21 @@ Though I've stated many times how valuable I find code retreats to be, I'm still
 
 I had three experiences that I'd like to share.
 
-1. Way way back when, I shared [what I learned at my first code retreat](http://www.bignerdranch.com/blog/lessons-learned-at-global-day-of-coderetreat/). Knowing how equality works in Ruby is a little tricky and understanding the importance of the hash and eql methods is key. But you can also get away with using the Comparable module (thanks [Steven Harman](http://stevenharman.net/)).
+### 1. "Simpler" equality in Ruby
+
+Way way back when, I shared [what I learned at my first code retreat](http://www.bignerdranch.com/blog/lessons-learned-at-global-day-of-coderetreat/). Knowing how equality works in Ruby is a little tricky and understanding the importance of the hash and eql methods is key. But you can also get away with using the Comparable module (thanks [Steven Harman](http://stevenharman.net/)).  
 
 {% gist 4a0d0f0403a2b85b383f point.rb %}
 
-1. As I mentioned above, I only experienced two full sessions. I was interuppted in the third session where we were constrained to using mute ping-pong TDD. But what was interesting is how in the few minutes we did share, I started with a full integration test. This stumped my partner. And to be honest, it was a little unfair as there's no way he could write a passing test without resorting to some nefarious behaviors. I later found out that we weren't the only ones who found starting with a high level integration test challenging when we weren't able to vocally coordinate with our partner. There's got to be some profound insight related to documentation, abstraction and code rot over time.
+The tricky/dirty part here is determining when a point is "less than" another in a two dimensional coordinate plane. In the above code, I'm making an arbitrary distinction, we only look at the x axis, for the -1 and 1 cases as I really only care about equality.
 
-1. Finally, what I'm most excited about is that I was able to pair with [Bree Stanwyck](https://twitter.com/letsbreelhere) and we used Haskell. This was the first time I was exposed to Haskell other than via a presentation and we managed, with tests, to get a [functioning Haskell GoL implementation](https://gist.github.com/breestanwyck/479faa4a274f7278b5fb) within the session. I was very impressed with Haskell and look forward to exploring it more in the near future. The elegance and simplicity allows the intent of the GoL algorithm to shine through. 
 
+### 2. Challenges of TDD with full stack integration tests
+
+As I mentioned above, I only experienced two full sessions. I was interuppted in the third session where we were constrained to using mute ping-pong TDD. But what was interesting is how in the few minutes we did share, I started with a full integration test. This stumped my partner. And to be honest, it was a little unfair as there's no way he could write a passing test without resorting to some nefarious behaviors. I later found out that we weren't the only ones who found starting with a high level integration test challenging when we weren't able to vocally coordinate with our partner. There's got to be some profound insight related to documentation, abstraction and code rot over time.
+
+### 3. Haskell!!!!
+
+Finally, what I'm most excited about is that I was able to pair with [Bree Stanwyck](https://twitter.com/letsbreelhere) and we used Haskell. This was the first time I was exposed to Haskell other than via a presentation and we managed, with tests, to get a [functioning Haskell GoL implementation](https://gist.github.com/breestanwyck/479faa4a274f7278b5fb) within the session. I was very impressed with Haskell and look forward to exploring it more in the near future. The elegance and simplicity allows the intent of the GoL algorithm to shine through. 
 
 For my next step, I'm planning on working through [http://learnyouahaskell.com/](http://learnyouahaskell.com/).
