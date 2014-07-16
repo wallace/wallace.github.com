@@ -116,10 +116,9 @@
 
 <p>I had three experiences that I&rsquo;d like to share.</p>
 
-<ol>
-<li>Way way back when, I shared <a href="http://www.bignerdranch.com/blog/lessons-learned-at-global-day-of-coderetreat/">what I learned at my first code retreat</a>. Knowing how equality works in Ruby is a little tricky and understanding the importance of the hash and eql methods is key. But you can also get away with using the Comparable module (thanks <a href="http://stevenharman.net/">Steven Harman</a>).</li>
-</ol>
+<h3>1. &ldquo;Simpler&rdquo; equality in Ruby</h3>
 
+<p>Way way back when, I shared <a href="http://www.bignerdranch.com/blog/lessons-learned-at-global-day-of-coderetreat/">what I learned at my first code retreat</a>. Knowing how equality works in Ruby is a little tricky and understanding the importance of the hash and eql methods is key. But you can also get away with using the Comparable module (thanks <a href="http://stevenharman.net/">Steven Harman</a>).</p>
 
 <div><script src='https://gist.github.com/4a0d0f0403a2b85b383f.js?file=point.rb'></script>
 <noscript><pre><code>class Point
@@ -142,11 +141,15 @@ puts &quot;different points are different #{ Point.new(1,1) != Point.new(1,2) } 
 puts &quot;same points are same #{ Point.new(1,1) == Point.new(1,1) } &quot;</code></pre></noscript></div>
 
 
-<ol>
-<li><p>As I mentioned above, I only experienced two full sessions. I was interuppted in the third session where we were constrained to using mute ping-pong TDD. But what was interesting is how in the few minutes we did share, I started with a full integration test. This stumped my partner. And to be honest, it was a little unfair as there&rsquo;s no way he could write a passing test without resorting to some nefarious behaviors. I later found out that we weren&rsquo;t the only ones who found starting with a high level integration test challenging when we weren&rsquo;t able to vocally coordinate with our partner. There&rsquo;s got to be some profound insight related to documentation, abstraction and code rot over time.</p></li>
-<li><p>Finally, what I&rsquo;m most excited about is that I was able to pair with <a href="https://twitter.com/letsbreelhere">Bree Stanwyck</a> and we used Haskell. This was the first time I was exposed to Haskell other than via a presentation and we managed, with tests, to get a <a href="https://gist.github.com/breestanwyck/479faa4a274f7278b5fb">functioning Haskell GoL implementation</a> within the session. I was very impressed with Haskell and look forward to exploring it more in the near future. The elegance and simplicity allows the intent of the GoL algorithm to shine through.</p></li>
-</ol>
+<p>The tricky/dirty part here is determining when a point is &ldquo;less than&rdquo; another in a two dimensional coordinate plane. In the above code, I&rsquo;m making an arbitrary distinction, we only look at the x axis, for the -1 and 1 cases as I really only care about equality.</p>
 
+<h3>2. Challenges of TDD with full stack integration tests</h3>
+
+<p>As I mentioned above, I only experienced two full sessions. I was interuppted in the third session where we were constrained to using mute ping-pong TDD. But what was interesting is how in the few minutes we did share, I started with a full integration test. This stumped my partner. And to be honest, it was a little unfair as there&rsquo;s no way he could write a passing test without resorting to some nefarious behaviors. I later found out that we weren&rsquo;t the only ones who found starting with a high level integration test challenging when we weren&rsquo;t able to vocally coordinate with our partner. There&rsquo;s got to be some profound insight related to documentation, abstraction and code rot over time.</p>
+
+<h3>3. Haskell!!!!</h3>
+
+<p>Finally, what I&rsquo;m most excited about is that I was able to pair with <a href="https://twitter.com/letsbreelhere">Bree Stanwyck</a> and we used Haskell. This was the first time I was exposed to Haskell other than via a presentation and we managed, with tests, to get a <a href="https://gist.github.com/breestanwyck/479faa4a274f7278b5fb">functioning Haskell GoL implementation</a> within the session. I was very impressed with Haskell and look forward to exploring it more in the near future. The elegance and simplicity allows the intent of the GoL algorithm to shine through.</p>
 
 <p>For my next step, I&rsquo;m planning on working through <a href="http://learnyouahaskell.com/">http://learnyouahaskell.com/</a>.</p>
 </div>
