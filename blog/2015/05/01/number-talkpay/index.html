@@ -5,11 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>URL Rewriting for Sub Uris in Rails - Two minute spates</title>
+  <title>#talkpay - Two minute spates</title>
   <meta name="author" content="Jonathan R Wallace">
 
   
-  <meta name="description" content="In the good ol&#8217; days, when we used to walk up hill through the snow to school both ways, the Rails deployment process wasn&rsquo;t as simple as &hellip;">
+  <meta name="description" content="Today, May 1st, International Workers&#8217; Day, twitter has been alive with chat of
+#talkpay. An
+article in
+ModelViewCulture requests that we share &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.jonathanrwallace.com/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails/">
+  <link rel="canonical" href="http://blog.jonathanrwallace.com/blog/2015/05/01/number-talkpay/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -82,7 +85,7 @@
   
   <header>
     
-      <h1 class="entry-title">URL Rewriting for Sub Uris in Rails</h1>
+      <h1 class="entry-title">#talkpay</h1>
     
     
       <p class="meta">
@@ -98,38 +101,92 @@
   
 
 
-<time datetime="2014-02-27T22:27:00-05:00" pubdate data-updated="true">Feb 27<sup>th</sup>, 2014</time>
+<time datetime="2015-05-01T21:31:01-04:00" pubdate data-updated="true">May 1<sup>st</sup>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>In the good ol&#8217; days, when we used to walk up hill through the snow to school both ways, the Rails deployment process wasn&rsquo;t as simple as pushing to heroku. You might have signed up with a custom rails hosting provider or used a shared hosting provider. You may have had to configure Apache to use subdomains or even suburis. Now, most of these issues have been abstracted away. But not all the time.</p>
+<div class="entry-content"><p>Today, May 1st, International Workers&#8217; Day, twitter has been alive with chat of
+<a href="https://twitter.com/hashtag/talkpay">#talkpay</a>.  <a href="https://modelviewculture.com/news/lets-talk-about-pay">An
+article</a> in
+<a href="https://modelviewculture.com">ModelViewCulture</a> requests that we share our
+current salary, title and experience to combat systemic pay inequality. Though I
+don&rsquo;t agree with everything in the article, I&rsquo;m choosing to take part.</p>
 
-<p>A few weeks ago, a <a href="https://twitter.com/Pvolitans">good friend of mine</a> found himself in the situation where you access the Rails app via aSubURI. Read on to find out what the challenges were for him and how we solved them.</p>
-
-<p><a href="http://www.flickr.com/photos/sprout_creative/5307155637/" title="IMG_1046 The Good ol' days by sprout_creative, on Flickr"><img src="http://farm6.staticflickr.com/5208/5307155637_8e0144af51_m.jpg" width="240" height="160" alt="IMG_1046 The Good ol' days"></a></p>
+<p><a href="https://www.flickr.com/photos/76657755@N04/7408506410" title="Money by Tax Credits, on Flickr"><img src="https://farm8.staticflickr.com/7114/7408506410_715acb5f6f_m.jpg" width="240" height="160" alt="Money"></a></p>
 
 <!-- more -->
 
 
-<p>Three things</p>
+<p>There&rsquo;s a huge social taboo against sharing salary here in the U.S. The topic of
+complete salary transparency has been a topic that I&rsquo;ve been discussing with
+friends and coworkers for many years so I approach it with a great amount of
+trepidation.</p>
 
-<p>duck typing</p>
+<p>I fear violating the social mores and the possible consequences. I
+fear revealing competitive information about my company&rsquo;s business model. I fear
+the power of other individuals interpreting my experiences and the arbitrary
+values that others place on me in a non-flattering light. I fear alienating
+co-workers. I fear alienating future co-workers. I also fear the
+reductionist aspect of a title and two numbers.</p>
 
-<h1>ApplicationController</h1>
+<p>I&rsquo;ve never been someone that chases the highest paying job. I&rsquo;ve always been
+keen on having autonomy and respect. I&rsquo;ve placed a premium of not having to
+drive. I&rsquo;ve placed a premium on being at home with my children. I&rsquo;ve placed a
+premium on working with kind, collaborative people. To share just the number
+betrays the values that I hold dearest. A number doesn&rsquo;t focus on what matters.</p>
 
-<p><a href="https://github.com/jeremiaheb/mangroves/commit/1637e65e3c69ff8c550883ea0609455236b036cf">https://github.com/jeremiaheb/mangroves/commit/1637e65e3c69ff8c550883ea0609455236b036cf</a></p>
+<p>So I can&rsquo;t leave it at a title.  I can&rsquo;t just leave it at two numbers. I have to
+tell the story. The reason to share this information publicly is to humanize the
+gap. We already have the numbers that prove there&rsquo;s a gap in aggregate. Let me
+share my story so you know how and why I made the decisions I did and I hope you
+may find something of value.</p>
 
-<h1>ActionView</h1>
+<p>The power isn&rsquo;t in the numbers. It is in using the numbers effectively. It is in
+knowing your
+<a href="http://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement">BATNA</a>
+and anticipating theirs. My biggest hope is that these numbers inspire or help
+you in some way that I can&rsquo;t anticipate.</p>
 
-<p><a href="https://github.com/jeremiaheb/mangroves/commit/cbfd90020d9cb5900169ead4bdd319c9431ec160">https://github.com/jeremiaheb/mangroves/commit/cbfd90020d9cb5900169ead4bdd319c9431ec160</a></p>
+<p>Here&rsquo;s my income to the best of my memory not adjusted for inflation.</p>
 
-<h1>you using devise?</h1>
+<ul>
+<li>1997 &ndash; 1998 Failed Consultant. I had to return the $600 I was paid because I never delivered.</li>
+<li>1999 &ndash; 2001 Intern. $18/hr no professional software experience.</li>
+<li>2002 &ndash; 2004 Graduate Assistant. I don&rsquo;t remember what I was paid.</li>
+<li>2005 &ndash; 2006 I started working as the IT Manager for a restaurant chain
+for ~$30,000. I was told that in 10 years I could probably be making $50,000.
+When I received a raise of 10% after working over 100 hours in one week that
+year in addition to traveling a good amount of the time, I knew that I&rsquo;d have
+to move on. Note, I managed computers and software, not people, despite the
+&ldquo;Manager&rdquo; in the title. Fifteen days of PTO a year.</li>
+<li>2006 &ndash; 2007 IT Project Manager. Again, I had no direct reports. I worked here
+for a year and a day and was paid $55,000 with a ~$5,000 bonus. One week of
+PTO the first year (but you couldn&rsquo;t use them until the end of the first
+year) and two weeks every year thereafter.</li>
+<li>2007 &ndash; 2010 Web Developer. My first full time Ruby on Rails position.
+~$60,000 and finished at ~$70,000. This was my first full time remote
+position. I valued full time remote at a $30K-$40 premium. I believe I had 15
+PTO.</li>
+<li>2010 &ndash; 2015 Web Developer and Technologist to Backend Web Team Manager (with actual
+reports). $60K &ndash; $118K. This is my current position. I can&rsquo;t speak highly
+enough of all the things that are not covered by those numbers. The people.
+The faith, autonomy and trust of the company places in their co-workers.  The
+quality of the environment due to my coworkers. The &ldquo;unlimited vacation&rdquo; due
+to <a href="http://gorowe.com/">ROWE</a>. The experiments we tried (include ROWE). The
+diversity of backgrounds and experience while sharing the same desire for
+self-improvement in a collaborative environment.</li>
+</ul>
 
-<p><a href="https://github.com/jeremiaheb/mangroves/blob/master/lib/custom_failure.rb">https://github.com/jeremiaheb/mangroves/blob/master/lib/custom_failure.rb</a>
-<a href="https://github.com/plataformatec/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated">https://github.com/plataformatec/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated</a></p>
+
+<p>What&rsquo;s not covered above? All the concurrent moonlighting I&rsquo;ve done from 2007
+and continue to do now. Starting a local software developer meetup. Continual
+mentoring that&rsquo;s fostered my personal and professional growth.</p>
+
+<p>Family support in all directions allowing me to focus on my career. Societal
+norms and privileges not granted to others. Luck. Fortune. Blessings.</p>
 </div>
 
 
@@ -152,7 +209,7 @@
   
 
 
-<time datetime="2014-02-27T22:27:00-05:00" pubdate data-updated="true">Feb 27<sup>th</sup>, 2014</time>
+<time datetime="2015-05-01T21:31:01-04:00" pubdate data-updated="true">May 1<sup>st</sup>, 2015</time>
       
 
 
@@ -169,10 +226,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/01/14/building-cyberdine-systems-with-kids/" title="Previous Post: Building cyberdine systems with kids">&laquo; Building cyberdine systems with kids</a>
+        <a class="basic-alignment left" href="/blog/2014/07/15/my-first-haskell/" title="Previous Post: my first haskell">&laquo; my first haskell</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2014/06/12/year-in-review/" title="Next Post: Year in review">Year in review &raquo;</a>
       
     </p>
   </footer>
