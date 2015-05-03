@@ -65,13 +65,13 @@ Here's my income to the best of my memory not adjusted for inflation.
  * 2007 - 2010 Web Developer. My first full time Ruby on Rails position.
    ~$60,000 and finished at ~$70,000. This was my first full time remote
    position. I valued full time remote at a $30K-$40 premium. I believe I had 15
-   PTO.
+   PTO days per year.
  * 2010 - 2015 Web Developer and Technologist to Backend Web Team Manager (with actual
    reports). $60K - $118K. This is my current position. I can't speak highly
    enough of all the things that are not covered by those numbers. The people.
-   The faith, autonomy and trust of the company places in their co-workers.  The
+   The faith, autonomy and trust the company places in their co-workers.  The
    quality of the environment due to my coworkers. The "unlimited vacation" due
-   to [ROWE](http://gorowe.com/). The experiments we tried (include ROWE). The
+   to [ROWE](http://gorowe.com/). The experiments we tried (including ROWE). The
    diversity of backgrounds and experience while sharing the same desire for
    self-improvement in a collaborative environment.
 
