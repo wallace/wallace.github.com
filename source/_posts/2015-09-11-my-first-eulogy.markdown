@@ -94,3 +94,4 @@ I won't regret the time spent with my kids, their kids or my family. And they
 won't either. I miss you Grandaddy.
 
 <iframe src="//player.vimeo.com/hubnut/album/3532229?color=44bbff&amp;background=000000&amp;slideshow=0&amp;video_title=1&amp;video_byline=1" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<a href="https://vimeo.com/couchmode/album/3532229">Mobile link</a>
