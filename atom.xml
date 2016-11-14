@@ -4,7 +4,7 @@
   <title><![CDATA[Two minute spates]]></title>
   <link href="http://blog.jonathanrwallace.com/atom.xml" rel="self"/>
   <link href="http://blog.jonathanrwallace.com/"/>
-  <updated>2015-11-07T18:00:58-05:00</updated>
+  <updated>2016-11-13T20:09:10-05:00</updated>
   <id>http://blog.jonathanrwallace.com/</id>
   <author>
     <name><![CDATA[Jonathan R Wallace]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Resonating Principles]]></title>
+    <link href="http://blog.jonathanrwallace.com/blog/2016/11/13/resonating-principles/"/>
+    <updated>2016-11-13T16:34:36-05:00</updated>
+    <id>http://blog.jonathanrwallace.com/blog/2016/11/13/resonating-principles</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve had the great fortune to follow excellent leaders both in my professional and private life. As early as high school, I learned a great deal from coaches and team captains in sports. In following people who inspired me, I&rsquo;ve stolen liberally wherever and whenever I can. I&rsquo;m going to share the principles others shared with me that I value in the workplace and that I share with my reports.</p>
+
+<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/everyplace/2742146831/in/photolist-5bjdHD-6XWao9-6XWas9-fjPX4o-aznycb-5fRoTa-ipoWr-eg7arn-bD66h8-bChTKt-rn72x9-9ss32L-oBhfRi-5XMCxN-pYs4Xo-paoj6s-5qvCxE-opEDw-6XS9VX-61WvCA-arsS8v-dt1EYo-duxLqN-4Y9KRW-6XWaL1-6XS9NM-qSBeE5-azjTZH-nmi3U1-5QnakJ-7uPymK-ezpDr4-dt1EUE-sm7Rf-5Ag8D4-e1PGFh-6XS9Hx-dnpvTX-7cboME-4vad4D-dCwA17-ar6EFC-4Y5vLV-dt1EX3-81YMYR-dzbH7A-6moese-azjTkF-7n3Miy-9rQ6LL" title="Ideal House"><img src="https://c8.staticflickr.com/3/2295/2742146831_4e2416c31c_m.jpg" width="240" height="160" alt="Ideal House"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+
+<!-- more -->
+
+
+<p>During my tenure at Highgroove Studios, the inimitable <a href="http://www.seebq.com/">CBQ</a>, the CEO and my boss, spent a great deal of time distilling the cultural values that made our consultancy successful.  Those values were being personable, optimistic, and trustworthy and valuing craftsmanship.</p>
+
+<p>After Highgroove and <a href="https://www.bignerdranch.com/">Big Nerd Ranch</a> merged, I was invited to be a part of the leadership development team where we discussed our cultural values: being kind, brilliant, and hardworking.  During my time on the leadership development team, we thought long and hard about whether those values still applied to the larger company after the merger.</p>
+
+<p>As a people manager, I often start the first four or five 1-on-1s meetings by sharing my values with the people that I serve. My goal is to help the people that I serve get to know me more quickly and, hopefully, spark a deeper discussion.</p>
+
+<p>Here are those values:</p>
+
+<ul>
+<li>being personable: I like to work with others that are friendly and empathetic with their co-workers, their users, and their stakeholders. It is through empathy and a sincere value of others that we can determine how to work most effectively with one another.</li>
+<li>being optimistic: A belief in self and in others. A belief that big, hairy, audacious goals are achievable. It is tempting to become cynical around computers&mdash;why I find this value all the more important.</li>
+<li>trusting: Assume the best intentions of others and the organization. I&rsquo;m a fan of <a href="https://en.wikipedia.org/wiki/Hanlon%27s_razor">Hanlon&rsquo;s razor</a>.  Distrust is an organizational tax that reduces efficiency.</li>
+<li>craftspersonship: Understand that software development is ultimately a craft that entails trade-offs both on a technical level and an organizational level. A craftsperson seeks to master all tools and use the correct tool at the correct time to the most effect.</li>
+<li>integrity: The foundational principle supporting the above. When times are tough, am I operating with integrity? Am I acting in accordance with the values espoused above?</li>
+</ul>
+
+
+<p>Amazing things are accomplished when there&rsquo;s a unity of values and mission. The above values detail how I most enjoy achieving amazing things. What values do you hold dear?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My First Eulogy]]></title>
@@ -356,39 +389,6 @@ three different recruitment fairs, helping out with sales and estimates as a tec
 <p>That&rsquo;s a pretty busy 2013 and I&rsquo;m definitely feeling that 2014 is stacking up competitively. Great things have already happened that I haven&rsquo;t even had the time to share yet but SOON&trade;.</p>
 
 <p><a href="https://www.flickr.com/photos/krupptastic/4738992473" title="the future soon by k rupp, on Flickr"><img src="https://farm5.staticflickr.com/4142/4738992473_38ff2f7971.jpg" width="500" height="395" alt="the future soon"></a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[URL Rewriting for Sub Uris in Rails]]></title>
-    <link href="http://blog.jonathanrwallace.com/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails/"/>
-    <updated>2014-02-27T22:27:00-05:00</updated>
-    <id>http://blog.jonathanrwallace.com/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails</id>
-    <content type="html"><![CDATA[<p>In the good ol&#8217; days, when we used to walk up hill through the snow to school both ways, the Rails deployment process wasn&rsquo;t as simple as pushing to heroku. You might have signed up with a custom rails hosting provider or used a shared hosting provider. You may have had to configure Apache to use subdomains or even suburis. Now, most of these issues have been abstracted away. But not all the time.</p>
-
-<p>A few weeks ago, a <a href="https://twitter.com/Pvolitans">good friend of mine</a> found himself in the situation where you access the Rails app via aSubURI. Read on to find out what the challenges were for him and how we solved them.</p>
-
-<p><a href="http://www.flickr.com/photos/sprout_creative/5307155637/" title="IMG_1046 The Good ol' days by sprout_creative, on Flickr"><img src="http://farm6.staticflickr.com/5208/5307155637_8e0144af51_m.jpg" width="240" height="160" alt="IMG_1046 The Good ol' days"></a></p>
-
-<!-- more -->
-
-
-<p>Three things</p>
-
-<p>duck typing</p>
-
-<h1>ApplicationController</h1>
-
-<p><a href="https://github.com/jeremiaheb/mangroves/commit/1637e65e3c69ff8c550883ea0609455236b036cf">https://github.com/jeremiaheb/mangroves/commit/1637e65e3c69ff8c550883ea0609455236b036cf</a></p>
-
-<h1>ActionView</h1>
-
-<p><a href="https://github.com/jeremiaheb/mangroves/commit/cbfd90020d9cb5900169ead4bdd319c9431ec160">https://github.com/jeremiaheb/mangroves/commit/cbfd90020d9cb5900169ead4bdd319c9431ec160</a></p>
-
-<h1>you using devise?</h1>
-
-<p><a href="https://github.com/jeremiaheb/mangroves/blob/master/lib/custom_failure.rb">https://github.com/jeremiaheb/mangroves/blob/master/lib/custom_failure.rb</a>
-<a href="https://github.com/plataformatec/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated">https://github.com/plataformatec/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated</a></p>
 ]]></content>
   </entry>
   
@@ -752,13 +752,101 @@ how I&rsquo;ll find the time to work on them all.</p>
 <p>Here&rsquo;s an example irc.conf for weechat.</p>
 
 <div><script src='https://gist.github.com/4949912.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
+<noscript><pre><code>[server]
+freenode.addresses = &quot;chat.freenode.net/6667&quot;
+freenode.proxy
+freenode.ipv6
+freenode.ssl
+freenode.ssl_cert
+freenode.ssl_priorities
+freenode.ssl_dhkey_size
+freenode.ssl_verify
+freenode.password
+freenode.capabilities
+freenode.sasl_mechanism
+freenode.sasl_username = &quot;jonathanwallace&quot;
+freenode.sasl_password = &quot;***************&quot;
+freenode.sasl_timeout
+freenode.autoconnect = on
+freenode.autoreconnect
+freenode.autoreconnect_delay
+freenode.nicks
+freenode.username
+freenode.realname
+freenode.local_hostname
+freenode.command
+freenode.command_delay
+freenode.autojoin = &quot;#rubyist,#rails,#rubyonrails,#ruby,#atlrug,#javascript,#axlsx,#bnr ***your channel password***&quot;
+freenode.autorejoin
+freenode.autorejoin_delay
+freenode.connection_timeout
+freenode.anti_flood_prio_high
+freenode.anti_flood_prio_low
+freenode.away_check
+freenode.away_check_max_nicks
+freenode.default_msg_part
+freenode.default_msg_quit
+freenode.notify
+campfire.addresses = &quot;127.0.0.1/6667&quot;
+campfire.proxy
+campfire.ipv6
+campfire.ssl
+campfire.ssl_cert
+campfire.ssl_priorities
+campfire.ssl_dhkey_size
+campfire.ssl_verify
+campfire.password = &quot;bignerdranch:****your campfire API key******&quot;
+campfire.capabilities
+campfire.sasl_mechanism
+campfire.sasl_username
+campfire.sasl_password
+campfire.sasl_timeout
+campfire.autoconnect
+campfire.autoreconnect = on
+campfire.autoreconnect_delay
+campfire.nicks
+campfire.username
+campfire.realname
+campfire.local_hostname
+campfire.command
+campfire.command_delay
+campfire.autojoin = &quot;#playground,#sales_marketing,#public,#serious_business,#serious_coding,#team_car_ram_rod&quot;
+campfire.autorejoin
+campfire.autorejoin_delay
+campfire.connection_timeout
+campfire.anti_flood_prio_high
+campfire.anti_flood_prio_low
+campfire.away_check
+campfire.away_check_max_nicks
+campfire.default_msg_part
+campfire.default_msg_quit
+campfire.notify</code></pre></noscript></div>
 
 
 <p>I had to make a slight modification to how urlgrab worked so here&rsquo;s my urlgrab.conf file.  I believe it was adding quotes around %s for localcmd.</p>
 
 <div><script src='https://gist.github.com/4949942.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
+<noscript><pre><code>#
+# urlgrab.conf -- weechat v0.3.9.2
+#
+
+[color]
+color_bg_selected = green
+color_buffer = red 
+color_buffer_selected = red 
+color_time = cyan
+color_time_selected = cyan
+color_url = blue
+color_url_selected = blue
+
+[default]
+historysize = 10
+localcmd = &quot;open &#39;%s&#39;&quot;
+method = &quot;local&quot;
+output_main_buffer = on
+remotecmd = &quot;ssh -x localhost -i ~/.ssh/id_rsa -C &quot;export DISPLAY=&quot;:0.0&quot; &amp;&amp;  firefox &#39;%s&#39;&quot;&quot;
+time_format = &quot;%H:%M:%S&quot;
+url_log = &quot;~/.weechat/urls.log&quot;</code></pre></noscript></div>
 
 
 <h2>Usage</h2>
