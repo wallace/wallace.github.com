@@ -4,7 +4,7 @@
   <title><![CDATA[Two minute spates]]></title>
   <link href="http://blog.jonathanrwallace.com/atom.xml" rel="self"/>
   <link href="http://blog.jonathanrwallace.com/"/>
-  <updated>2016-11-13T20:12:00-05:00</updated>
+  <updated>2017-01-01T15:57:02-05:00</updated>
   <id>http://blog.jonathanrwallace.com/</id>
   <author>
     <name><![CDATA[Jonathan R Wallace]]></name>
@@ -12,6 +12,112 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[So you want to learn how to program]]></title>
+    <link href="http://blog.jonathanrwallace.com/blog/2017/01/01/so-you-want-to-learn-how-to-program/"/>
+    <updated>2017-01-01T15:40:46-05:00</updated>
+    <id>http://blog.jonathanrwallace.com/blog/2017/01/01/so-you-want-to-learn-how-to-program</id>
+    <content type="html"><![CDATA[<p>There&rsquo;s only question that I&rsquo;ve been asked more than &ldquo;What do I do to learn how
+to program?&rdquo;<a href="#question">*</a>. I&rsquo;m pretty certain that the programming focused question will
+surpass the current champion sometime in 2017. In this post, I&rsquo;ll answer how to
+learn to program at a high level, follow up with some concrete references for
+getting started as well as my roadmap for Ruby and Rails.</p>
+
+<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/rcpl/3969420357/in/photolist-73Ljo2-nUHdqP-cLQ2pA-rMWtFu-cgwn5-o9zKDL-8JZyip-psr9mZ-5VsNnJ-66DDmf-DHS6Qw-bLJ2ua-bLJ2RH-6WtRoh-fa5NsN-bxPk1u-bLJ2gT-bLLfcn-bLJ1o4-bLJ2rV-bxPknQ-bxPkPQ-bxRpQs-bLLjpr-bxRxHm-bxPjjC-bLJ3EK-bxPje7-bxPkpY-bxRoHL-bLJ3b6-bxPkyq-9yGACj-bLL6ER-bLJ1xD-phfvvL-bLLfa6-bLJ1JT-bLJ1vD-bxRCQJ-bLJ1BR-bLGvA2-bxPkMU-bLJ22X-bLL6MD-bLJ1DP-bxPkw9-8nVeLx-pytkiv-otRtyE" title="Drop-In Programming"><img src="https://c6.staticflickr.com/3/2492/3969420357_fa85157081.jpg" width="500" height="333" alt="Drop-In Programming"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+
+<!-- more -->
+
+
+<h3>Motiviation</h3>
+
+<p>There is only one secret to learning software development successfully:
+motivation. Stay motivated. If you know why you&rsquo;re motivated, you&rsquo;ll be able to
+best nurture your interest and desire. Are you learning software development so
+that you may edit a webpage? Customize your myspace page? Build a website?  Know
+how to speak coherently to your contractors as you spec out your nifty startup?
+Script hot keys in your video game? Write a pokebot for facebook? Webscrape
+your favorite youtube videos?</p>
+
+<p>If you have an existing end goal in mind, re-visiting it will help when you find
+yourself struggling with a new concept or piece of technology.</p>
+
+<h3>Mentors</h3>
+
+<p>Another way to help maintain your motivation, and the second most important
+thing you can do is to find mentors. You don&rsquo;t have to have multiple mentors
+but find at least one. A good mentor will help you maintain your motivation by
+focusing on your successes, acknowledging your struggles, and helping you when
+you get stuck on the little things.</p>
+
+<p>Getting stuck on the little things happens all the time to all programmers of
+all experience levels. For example, you found a nifty stack overflow solution
+and you pasted it in your editor and it doesn&rsquo;t work. You understand the
+solution on stack overflow, it makes sense that it should work but it does not.</p>
+
+<p>As a programmer, I always feel ignorant.  I always feel that there is more to
+learn or that something I&rsquo;m trying to learn seems very difficult. It makes my
+brain hurt. That&rsquo;s normal. Eventually, you have longer and longer stretches of
+productivity but those moments of struggle never fail to re-appear. If you can
+learn to love the process, you&rsquo;ll love programming.</p>
+
+<h3>Beginners resources</h3>
+
+<p>For beginners with no experience with software development, <a href="https://scratch.mit.edu/">check out scratch</a>.</p>
+
+<p>There are numerous other resources for getting started.</p>
+
+<p><a href="http://bandofcoders.com/girlsacademy/">Band of Coders Girls Academy</a>
+<a href="http://girlswhocode.com/">Girls Who Code</a>
+<a href="http://www.blackgirlscode.com/">Black Girls Code</a>
+<a href="http://www.mywit.org/wit-participate/wit-girls/">WIT Girls</a>
+<a href="http://www.100girlsofcode.com/conyers-ga.html">100 Girls of Code (in Conyers, GA)</a></p>
+
+<p>These two links will help you find the nearest support group.
+<a href="https://code.org/learn/local">Code.org</a>
+<a href="https://coderdojo.com/">Coder Dojo</a></p>
+
+<p>Here are some good intro sites.
+<a href="http://www.kids4coding.com">Kids for Coding</a>
+<a href="https://hourofcode.com/us/learn">Hour of Code</a></p>
+
+<p>Fun ways to learn:
+<a href="https://codecombat.com/">Code Combat</a>
+<a href="https://www.codewars.com/">Code Wars</a>
+<a href="http://tomorrowcorporation.com/humanresourcemachine">Human Resource Machine</a></p>
+
+<p>Thanks to Jessica Dennis, Niya Panamdanam, Liz Ojukwu, marshmallowrobot, Angel Banks, and Jennifer Mann for the above suggestions.</p>
+
+<h3>Ruby and Rails</h3>
+
+<p>If you&rsquo;re looking for my recommendations for Ruby/Rails, read on.</p>
+
+<pre><code>1. Use virtualbox to set up a ubuntu instance, https://www.virtualbox.org/.
+
+2. Set up rbenv, git, ruby, rails, mysql, and postgresql: https://gorails.com/setup
+
+3. Start on a ruby tutorail: http://ruby.learncodethehardway.org/
+
+4. Do a command line refresher: http://cli.learncodethehardway.org/book/
+
+5. A somewhat simple rails app tutorial: http://guides.railsgirls.com/app/
+
+6. A good comprehensive rails tutorial: http://www.railstutorial.org/
+</code></pre>
+
+<p>There&rsquo;s a lot going on when learning how to develop web apps. If you can
+compartmentalize and focus on one or two things at a time, it&rsquo;ll be much easier
+going. Here&rsquo;s a nice little blog post about all the things that are involved:
+<a href="https://www.codefellows.org/blogs/this-is-why-learning-rails-is-hard.">https://www.codefellows.org/blogs/this-is-why-learning-rails-is-hard.</a></p>
+
+<p>p.s. Don&rsquo;t burn yourself out attempting too much. Find small wins. Celebrate
+your successes.  Do not take mistakes or failure personally. Know that
+programming is a continual effort to learn new information on a daily, weekly
+and monthly basis.</p>
+
+<p><a name="question">*</a>. &ldquo;Have you cleaned your room?&rdquo;</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Resonating Principles]]></title>
@@ -393,6 +499,39 @@ three different recruitment fairs, helping out with sales and estimates as a tec
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[URL Rewriting for Sub Uris in Rails]]></title>
+    <link href="http://blog.jonathanrwallace.com/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails/"/>
+    <updated>2014-02-27T22:27:00-05:00</updated>
+    <id>http://blog.jonathanrwallace.com/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails</id>
+    <content type="html"><![CDATA[<p>In the good ol&#8217; days, when we used to walk up hill through the snow to school both ways, the Rails deployment process wasn&rsquo;t as simple as pushing to heroku. You might have signed up with a custom rails hosting provider or used a shared hosting provider. You may have had to configure Apache to use subdomains or even suburis. Now, most of these issues have been abstracted away. But not all the time.</p>
+
+<p>A few weeks ago, a <a href="https://twitter.com/Pvolitans">good friend of mine</a> found himself in the situation where you access the Rails app via aSubURI. Read on to find out what the challenges were for him and how we solved them.</p>
+
+<p><a href="http://www.flickr.com/photos/sprout_creative/5307155637/" title="IMG_1046 The Good ol' days by sprout_creative, on Flickr"><img src="http://farm6.staticflickr.com/5208/5307155637_8e0144af51_m.jpg" width="240" height="160" alt="IMG_1046 The Good ol' days"></a></p>
+
+<!-- more -->
+
+
+<p>Three things</p>
+
+<p>duck typing</p>
+
+<h1>ApplicationController</h1>
+
+<p><a href="https://github.com/jeremiaheb/mangroves/commit/1637e65e3c69ff8c550883ea0609455236b036cf">https://github.com/jeremiaheb/mangroves/commit/1637e65e3c69ff8c550883ea0609455236b036cf</a></p>
+
+<h1>ActionView</h1>
+
+<p><a href="https://github.com/jeremiaheb/mangroves/commit/cbfd90020d9cb5900169ead4bdd319c9431ec160">https://github.com/jeremiaheb/mangroves/commit/cbfd90020d9cb5900169ead4bdd319c9431ec160</a></p>
+
+<h1>you using devise?</h1>
+
+<p><a href="https://github.com/jeremiaheb/mangroves/blob/master/lib/custom_failure.rb">https://github.com/jeremiaheb/mangroves/blob/master/lib/custom_failure.rb</a>
+<a href="https://github.com/plataformatec/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated">https://github.com/plataformatec/devise/wiki/How-To:-Redirect-to-a-specific-page-when-the-user-can-not-be-authenticated</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Building cyberdine systems with kids]]></title>
     <link href="http://blog.jonathanrwallace.com/blog/2014/01/14/building-cyberdine-systems-with-kids/"/>
     <updated>2014-01-14T21:52:00-05:00</updated>
@@ -752,101 +891,13 @@ how I&rsquo;ll find the time to work on them all.</p>
 <p>Here&rsquo;s an example irc.conf for weechat.</p>
 
 <div><script src='https://gist.github.com/4949912.js'></script>
-<noscript><pre><code>[server]
-freenode.addresses = &quot;chat.freenode.net/6667&quot;
-freenode.proxy
-freenode.ipv6
-freenode.ssl
-freenode.ssl_cert
-freenode.ssl_priorities
-freenode.ssl_dhkey_size
-freenode.ssl_verify
-freenode.password
-freenode.capabilities
-freenode.sasl_mechanism
-freenode.sasl_username = &quot;jonathanwallace&quot;
-freenode.sasl_password = &quot;***************&quot;
-freenode.sasl_timeout
-freenode.autoconnect = on
-freenode.autoreconnect
-freenode.autoreconnect_delay
-freenode.nicks
-freenode.username
-freenode.realname
-freenode.local_hostname
-freenode.command
-freenode.command_delay
-freenode.autojoin = &quot;#rubyist,#rails,#rubyonrails,#ruby,#atlrug,#javascript,#axlsx,#bnr ***your channel password***&quot;
-freenode.autorejoin
-freenode.autorejoin_delay
-freenode.connection_timeout
-freenode.anti_flood_prio_high
-freenode.anti_flood_prio_low
-freenode.away_check
-freenode.away_check_max_nicks
-freenode.default_msg_part
-freenode.default_msg_quit
-freenode.notify
-campfire.addresses = &quot;127.0.0.1/6667&quot;
-campfire.proxy
-campfire.ipv6
-campfire.ssl
-campfire.ssl_cert
-campfire.ssl_priorities
-campfire.ssl_dhkey_size
-campfire.ssl_verify
-campfire.password = &quot;bignerdranch:****your campfire API key******&quot;
-campfire.capabilities
-campfire.sasl_mechanism
-campfire.sasl_username
-campfire.sasl_password
-campfire.sasl_timeout
-campfire.autoconnect
-campfire.autoreconnect = on
-campfire.autoreconnect_delay
-campfire.nicks
-campfire.username
-campfire.realname
-campfire.local_hostname
-campfire.command
-campfire.command_delay
-campfire.autojoin = &quot;#playground,#sales_marketing,#public,#serious_business,#serious_coding,#team_car_ram_rod&quot;
-campfire.autorejoin
-campfire.autorejoin_delay
-campfire.connection_timeout
-campfire.anti_flood_prio_high
-campfire.anti_flood_prio_low
-campfire.away_check
-campfire.away_check_max_nicks
-campfire.default_msg_part
-campfire.default_msg_quit
-campfire.notify</code></pre></noscript></div>
+<noscript><pre><code></code></pre></noscript></div>
 
 
 <p>I had to make a slight modification to how urlgrab worked so here&rsquo;s my urlgrab.conf file.  I believe it was adding quotes around %s for localcmd.</p>
 
 <div><script src='https://gist.github.com/4949942.js'></script>
-<noscript><pre><code>#
-# urlgrab.conf -- weechat v0.3.9.2
-#
-
-[color]
-color_bg_selected = green
-color_buffer = red 
-color_buffer_selected = red 
-color_time = cyan
-color_time_selected = cyan
-color_url = blue
-color_url_selected = blue
-
-[default]
-historysize = 10
-localcmd = &quot;open &#39;%s&#39;&quot;
-method = &quot;local&quot;
-output_main_buffer = on
-remotecmd = &quot;ssh -x localhost -i ~/.ssh/id_rsa -C &quot;export DISPLAY=&quot;:0.0&quot; &amp;&amp;  firefox &#39;%s&#39;&quot;&quot;
-time_format = &quot;%H:%M:%S&quot;
-url_log = &quot;~/.weechat/urls.log&quot;</code></pre></noscript></div>
+<noscript><pre><code></code></pre></noscript></div>
 
 
 <h2>Usage</h2>
@@ -971,80 +1022,6 @@ general silliness that we enjoy.</p>
 from within weechat.</p>
 
 <p><a href="https://github.com/wallace/weechat-nerdbot-karma">Don&rsquo;t bother thanking me here</a>. :)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Sharing Files On Unix]]></title>
-    <link href="http://blog.jonathanrwallace.com/blog/2013/01/10/sharing-files-on-unix/"/>
-    <updated>2013-01-10T13:16:00-05:00</updated>
-    <id>http://blog.jonathanrwallace.com/blog/2013/01/10/sharing-files-on-unix</id>
-    <content type="html"><![CDATA[<p>Here&rsquo;s a task I&rsquo;ve had to do many times and I&rsquo;m always looking one or two (or
-all) of the commands up on the interwebz.</p>
-
-<p><a href="http://www.flickr.com/photos/emrank/3291247985/" title="Sharing is caring - Oasis 21 by emrank, on Flickr"><img src="http://farm4.staticflickr.com/3196/3291247985_e1206ab814_m.jpg" width="180" height="240" alt="Sharing is caring - Oasis 21"></a></p>
-
-<p>How to setup file sharing between two unix users.</p>
-
-<!-- more -->
-
-
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ groupadd new_group
-</span><span class='line'>
-</span><span class='line'># add both users to the new group  
-</span><span class='line'>$ sudouseradd -G new_group user1
-</span><span class='line'>$ sudouseradd -G new_group user2
-</span><span class='line'>
-</span><span class='line'># update the folder's group to be the new_group and make it sticky
-</span><span class='line'>$ chgrp -R new_group folder_to_share
-</span><span class='line'>$ chmod g+w folder_to_share
-</span><span class='line'>$ chmod g+s folder_to_share
-</span><span class='line'>
-</span><span class='line'># verify the umask setting for the user ensures group files are readable (this is normally the default)</span></code></pre></td></tr></table></div></figure>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[blogthemeception]]></title>
-    <link href="http://blog.jonathanrwallace.com/blog/2013/01/09/blogthemeception/"/>
-    <updated>2013-01-09T22:27:00-05:00</updated>
-    <id>http://blog.jonathanrwallace.com/blog/2013/01/09/blogthemeception</id>
-    <content type="html"><![CDATA[<p>Meta post!</p>
-
-<p><a href="http://www.flickr.com/photos/hoyvinmayvin/4829169558/" title="Inception by Profound Whatever, on Flickr"><img src="http://farm5.staticflickr.com/4122/4829169558_6044b039a5_m.jpg" width="180" height="240" alt="Inception"></a></p>
-
-<!-- more -->
-
-
-<p>I knew that I wanted to differentiate my blog visually when it arose from the
-dead.  I did not want to use the default theme provided by whatever blogging
-platform I eventually settled on.</p>
-
-<p>After looking around at many static site generators, I settled on <a href="http://octopress.org/">http://octopress.org/</a> and
-perused the <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">3rd party themes</a>.
-I found a <a href="http://blog.justin.kelly.org.au/octopress-theme/">nice clean theme</a>
-but there was a tiny problem.  It wasn&rsquo;t packaged up so that I could, with one
-command, install it.  (OH THE HORROR!  Someone on the internet gave away
-something for free yet I still had to do some work to get it to work for me.)</p>
-
-<p>Being a good open source citizen, I decided to package it up to make it easier
-for others to use.  Voila!  You too can now have the awesomeness of the
-  <a href="https://github.com/wallace/justin-kelly-theme">justin-kelly-theme</a>.  Enjoy!</p>
 ]]></content>
   </entry>
   

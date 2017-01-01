@@ -3,6 +3,12 @@
   
   
   <url>
+    <loc>http://blog.jonathanrwallace.com/blog/2017/01/01/so-you-want-to-learn-how-to-program/</loc>
+    <lastmod>2017-01-01T15:40:46-05:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.jonathanrwallace.com/blog/2016/11/13/resonating-principles/</loc>
     <lastmod>2016-11-13T16:34:36-05:00</lastmod>
     <priority>0.8</priority>
@@ -35,6 +41,12 @@
   <url>
     <loc>http://blog.jonathanrwallace.com/blog/2014/06/12/year-in-review/</loc>
     <lastmod>2014-06-12T09:28:00-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.jonathanrwallace.com/blog/2014/02/27/url-rewriting-for-sub-uris-in-rails/</loc>
+    <lastmod>2014-02-27T22:27:00-05:00</lastmod>
     <priority>0.8</priority>
   </url>
   
@@ -143,28 +155,28 @@
   
   <url>
     <loc>http://blog.jonathanrwallace.com/404.html</loc>
-    <lastmod>2016-11-13T20:12:00-05:00</lastmod>
+    <lastmod>2017-01-01T15:57:02-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://blog.jonathanrwallace.com/</loc>
-    <lastmod>2016-11-13T20:12:00-05:00</lastmod>
+    <lastmod>2017-01-01T15:57:02-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://blog.jonathanrwallace.com/blog/archives/</loc>
-    <lastmod>2016-11-13T20:12:00-05:00</lastmod>
+    <lastmod>2017-01-01T15:57:02-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://blog.jonathanrwallace.com/about/</loc>
-    <lastmod>2016-11-13T20:12:00-05:00</lastmod>
+    <lastmod>2017-01-01T15:57:02-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -172,7 +184,7 @@
   
   <url>
     <loc>http://blog.jonathanrwallace.com/assets/font-awesome/docs/index.html</loc>
-    <lastmod>2016-11-13T20:11:1479085879Z</lastmod>
+    <lastmod>2015-09-11T19:40:1442014841Z</lastmod>
     <priority>0.6</priority>
   </url>
   
