@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "about"
-date: 2013-01-06 17:00
+date: 2017-01-01 16:00
 comments: true
 sharing: true
 footer: true
@@ -10,7 +10,7 @@ footer: true
 - I [code](http://github.com/wallace).
 - I [contributed to rails](http://contributors.rubyonrails.org/contributors/jonathan-r-wallace/commits). :)
 - I [tweet](http://twitter.com/jonathanwallace).
-- I [work](http://peachtreebilling.com/).
+- I [work](http://stitchfix.com/).
 - I [present](https://speakerdeck.com/jwallace).
 - I have [work history](http://www.linkedin.com/pub/jonathan-wallace/9/8ba/888).
 - I sometimes [answer questions](http://stackoverflow.com/users/91029/jonathan-r-wallace).
