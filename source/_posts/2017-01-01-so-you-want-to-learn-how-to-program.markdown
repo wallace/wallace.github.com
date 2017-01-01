@@ -73,7 +73,7 @@ Fun ways to learn:
 [Code Wars](https://www.codewars.com/)
 [Human Resource Machine](http://tomorrowcorporation.com/humanresourcemachine)
 
-Thanks to Jessica Dennis, Niya Panamdanam, Jeff Ammons, Liz Ojukwu, marshmallowrobot, Angel Banks, and Jennifer Mann for the above suggestions.
+Thanks to Jessica Dennis, Niya Panamdanam, Jeff Ammons, Liz Ojukwu, marshmallowrobot, [Angel Banks](https://mobile.twitter.com/angelmbanks), and Jennifer Mann for the above suggestions.
 
 ### Ruby and Rails
 
