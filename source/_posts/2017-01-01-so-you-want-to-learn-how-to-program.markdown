@@ -94,7 +94,7 @@ If you're looking for my recommendations for Ruby/Rails, read on.
 There's a lot going on when learning how to develop web apps. If you can
 compartmentalize and focus on one or two things at a time, it'll be much easier
 going. Here's a nice little blog post about all the things that are involved:
-https://www.codefellows.org/blogs/this-is-why-learning-rails-is-hard.
+https://www.codefellows.org/blogs/this-is-why-learning-rails-is-hard/ .
 
 p.s. Don't burn yourself out attempting too much. Find small wins. Celebrate
 your successes.  Do not take mistakes or failure personally. Know that
