@@ -16,7 +16,7 @@ getting started as well as my roadmap for Ruby and Rails.
 
 <!-- more -->
 
-### Motiviation
+### Motivation
 
 There is only one secret to learning software development successfully:
 motivation. Stay motivated. If you know why you're motivated, you'll be able to
