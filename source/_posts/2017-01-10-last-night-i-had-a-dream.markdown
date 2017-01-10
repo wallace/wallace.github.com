@@ -6,7 +6,7 @@ comments: true
 categories: personal eulogy
 ---
 
-_Edit: I wrote this back in November of 2016. Two days ago, 2016-01-08, my paternal grandfather, John Smietana, passed. It is hard to keep up._
+_Edit: I wrote this back in November of 2016. Two days ago, 2016-01-08, my paternal grandfather, John Smietana, also passed. It is hard to keep up._
 
 Last night, I had a dream. I dreamt of a woman so strong that she let love conquer death just to console her grandson. In my dream, she had yet to realize she had passed over to the other side and worried about giving me hugs and comfort.
 
