@@ -33,3 +33,7 @@ We're coming up on one of my most favorite times of the year, the winter holiday
 *. My opinion is that Me-maw is the inversion of maw-me or mommy. I'm pretty sure that's the first word everyone was trying to teach me and I've always had challenges where I want to mix up the order of syllables.
 
 **. After rereading [that post](http://blog.jonathanrwallace.com/blog/2015/09/11/my-first-eulogy/), I now know that part of the reason that I couldn't write as quickly and easily for Memaw is that she suffered from Alzheimer's for many years which degraded my memories of our interactions.
+
+Here's the last picture I took of Memaw after Grandaddy's memorial service.
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/67828440@N05/21314719794/in/datetaken/" title="Untitled"><img src="https://c3.staticflickr.com/6/5669/21314719794_27e5db7be5_n.jpg" width="320" height="240" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
