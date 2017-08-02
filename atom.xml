@@ -4,7 +4,7 @@
   <title><![CDATA[Two minute spates]]></title>
   <link href="http://blog.jonathanrwallace.com/atom.xml" rel="self"/>
   <link href="http://blog.jonathanrwallace.com/"/>
-  <updated>2017-01-10T07:53:02-05:00</updated>
+  <updated>2017-08-01T21:27:36-04:00</updated>
   <id>http://blog.jonathanrwallace.com/</id>
   <author>
     <name><![CDATA[Jonathan R Wallace]]></name>
@@ -46,6 +46,10 @@
 <p>*. My opinion is that Me-maw is the inversion of maw-me or mommy. I&rsquo;m pretty sure that&rsquo;s the first word everyone was trying to teach me and I&rsquo;ve always had challenges where I want to mix up the order of syllables.</p>
 
 <p>**. After rereading <a href="http://blog.jonathanrwallace.com/blog/2015/09/11/my-first-eulogy/">that post</a>, I now know that part of the reason that I couldn&rsquo;t write as quickly and easily for Memaw is that she suffered from Alzheimer&rsquo;s for many years which degraded my memories of our interactions.</p>
+
+<p>Here&rsquo;s the last picture I took of Memaw after Grandaddy&rsquo;s memorial service.</p>
+
+<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/67828440@N05/21314719794/in/datetaken/" title="Untitled"><img src="https://c3.staticflickr.com/6/5669/21314719794_27e5db7be5_n.jpg" width="320" height="240" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 ]]></content>
   </entry>
   
@@ -894,13 +898,101 @@ how I&rsquo;ll find the time to work on them all.</p>
 <p>Here&rsquo;s an example irc.conf for weechat.</p>
 
 <div><script src='https://gist.github.com/4949912.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
+<noscript><pre><code>[server]
+freenode.addresses = &quot;chat.freenode.net/6667&quot;
+freenode.proxy
+freenode.ipv6
+freenode.ssl
+freenode.ssl_cert
+freenode.ssl_priorities
+freenode.ssl_dhkey_size
+freenode.ssl_verify
+freenode.password
+freenode.capabilities
+freenode.sasl_mechanism
+freenode.sasl_username = &quot;jonathanwallace&quot;
+freenode.sasl_password = &quot;***************&quot;
+freenode.sasl_timeout
+freenode.autoconnect = on
+freenode.autoreconnect
+freenode.autoreconnect_delay
+freenode.nicks
+freenode.username
+freenode.realname
+freenode.local_hostname
+freenode.command
+freenode.command_delay
+freenode.autojoin = &quot;#rubyist,#rails,#rubyonrails,#ruby,#atlrug,#javascript,#axlsx,#bnr ***your channel password***&quot;
+freenode.autorejoin
+freenode.autorejoin_delay
+freenode.connection_timeout
+freenode.anti_flood_prio_high
+freenode.anti_flood_prio_low
+freenode.away_check
+freenode.away_check_max_nicks
+freenode.default_msg_part
+freenode.default_msg_quit
+freenode.notify
+campfire.addresses = &quot;127.0.0.1/6667&quot;
+campfire.proxy
+campfire.ipv6
+campfire.ssl
+campfire.ssl_cert
+campfire.ssl_priorities
+campfire.ssl_dhkey_size
+campfire.ssl_verify
+campfire.password = &quot;bignerdranch:****your campfire API key******&quot;
+campfire.capabilities
+campfire.sasl_mechanism
+campfire.sasl_username
+campfire.sasl_password
+campfire.sasl_timeout
+campfire.autoconnect
+campfire.autoreconnect = on
+campfire.autoreconnect_delay
+campfire.nicks
+campfire.username
+campfire.realname
+campfire.local_hostname
+campfire.command
+campfire.command_delay
+campfire.autojoin = &quot;#playground,#sales_marketing,#public,#serious_business,#serious_coding,#team_car_ram_rod&quot;
+campfire.autorejoin
+campfire.autorejoin_delay
+campfire.connection_timeout
+campfire.anti_flood_prio_high
+campfire.anti_flood_prio_low
+campfire.away_check
+campfire.away_check_max_nicks
+campfire.default_msg_part
+campfire.default_msg_quit
+campfire.notify</code></pre></noscript></div>
 
 
 <p>I had to make a slight modification to how urlgrab worked so here&rsquo;s my urlgrab.conf file.  I believe it was adding quotes around %s for localcmd.</p>
 
 <div><script src='https://gist.github.com/4949942.js'></script>
-<noscript><pre><code></code></pre></noscript></div>
+<noscript><pre><code>#
+# urlgrab.conf -- weechat v0.3.9.2
+#
+
+[color]
+color_bg_selected = green
+color_buffer = red 
+color_buffer_selected = red 
+color_time = cyan
+color_time_selected = cyan
+color_url = blue
+color_url_selected = blue
+
+[default]
+historysize = 10
+localcmd = &quot;open &#39;%s&#39;&quot;
+method = &quot;local&quot;
+output_main_buffer = on
+remotecmd = &quot;ssh -x localhost -i ~/.ssh/id_rsa -C &quot;export DISPLAY=&quot;:0.0&quot; &amp;&amp;  firefox &#39;%s&#39;&quot;&quot;
+time_format = &quot;%H:%M:%S&quot;
+url_log = &quot;~/.weechat/urls.log&quot;</code></pre></noscript></div>
 
 
 <h2>Usage</h2>
