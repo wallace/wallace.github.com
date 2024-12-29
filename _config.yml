@@ -27,7 +27,7 @@ kramdown:
 permalink: /blog/:year/:month/:day/:title/
 paginate: 10
 paginate_path: "/page/:num/"
-excerpt_separator: "<!--more-->"
+excerpt_separator: "<!-- more -->"
 excerpt_link: "Read on &rarr;"
 
 # Date format
