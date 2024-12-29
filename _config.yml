@@ -19,7 +19,7 @@ excerpt_link: "Read on &rarr;"
 
 # Date format
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
-date_format: "ordinal"
+date_format: "%B %-d, %Y"
 
 # RSS settings
 subscribe_rss: /atom.xml
@@ -53,3 +53,6 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
+# GitHub metadata
+github: [metadata]
