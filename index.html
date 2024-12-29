@@ -1,0 +1,34 @@
+---
+layout: home
+---
+
+<div class="home">
+  {% if site.posts.size > 0 %}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {% for post in paginator.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: site.date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {{ post.excerpt }}
+      </li>
+      {% endfor %}
+    </ul>
+
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">&laquo; Prev</a>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">Next &raquo;</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  {% endif %}
+</div>

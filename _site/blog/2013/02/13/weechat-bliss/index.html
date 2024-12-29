@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Weechat Bliss | Two minute spates</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Weechat Bliss" />
+<meta name="author" content="Jonathan R Wallace" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Back in Weechat Karmageddon, I spoke about a script I wrote to make giving hubot karma easy-peasy. In this post, we’ll talk about the rest of my weechat setup. Overview Weechat has two main ways to extend its stock functionality, scripts and plugins. Plugins are C programs that are dynamically loaded. Writing C programs to extend my IRC client is more work than I care for so I stick to scripts. Since I use scripts from perl, python and ruby I make sure to install weechat with support for those languages. $ brew install weechat –ruby –python –perl $ brew install weechat --with-ruby --with-python --with-perl Scripts Here’s a quick list of scripts that I use regularly: weechat-notification-center-rb – notifies you in Mac OS X Notification center weechat-nerdbot-karma – bestows karma, nerdbot style buffers.pl – lists your current buffers urlgrab.py – quickly open up links of the cat images shared by coworkers Once weechat has started, you may type /script help to get an interactive script manager. Unofficial scripts will not be listed in the interactive script manager so you’ll need to follow the installation instructions for weechat-notification-center-rb and weechat-nerdbot-karma. Startup I currently run camper_van as a proxy to my work campfire rooms, so I run camper_van camper_van in one terminal and then I set up a custom profile with a handy shortcut and startup command in iTerm2 to start up weechat. Configuration Here’s an example irc.conf for weechat. I had to make a slight modification to how urlgrab worked so here’s my urlgrab.conf file. I believe it was adding quotes around %s for localcmd. Usage I switch buffers with /b &lt;buffer number. I bestow karma via /karma &lt;name&gt; &lt;amount&gt;. And examining urls is a snap with /url &lt;ordinal position of url most recent first&gt; e.g., /url 1 opens up the most recent url in the current buffer. Coming up You may look forward to what I had to do to install camper_van (war story!) and another plugin to start camper_van in the background as a hook_process on weechat so there’s no need to run camper_van in its own terminal." />
+<meta property="og:description" content="Back in Weechat Karmageddon, I spoke about a script I wrote to make giving hubot karma easy-peasy. In this post, we’ll talk about the rest of my weechat setup. Overview Weechat has two main ways to extend its stock functionality, scripts and plugins. Plugins are C programs that are dynamically loaded. Writing C programs to extend my IRC client is more work than I care for so I stick to scripts. Since I use scripts from perl, python and ruby I make sure to install weechat with support for those languages. $ brew install weechat –ruby –python –perl $ brew install weechat --with-ruby --with-python --with-perl Scripts Here’s a quick list of scripts that I use regularly: weechat-notification-center-rb – notifies you in Mac OS X Notification center weechat-nerdbot-karma – bestows karma, nerdbot style buffers.pl – lists your current buffers urlgrab.py – quickly open up links of the cat images shared by coworkers Once weechat has started, you may type /script help to get an interactive script manager. Unofficial scripts will not be listed in the interactive script manager so you’ll need to follow the installation instructions for weechat-notification-center-rb and weechat-nerdbot-karma. Startup I currently run camper_van as a proxy to my work campfire rooms, so I run camper_van camper_van in one terminal and then I set up a custom profile with a handy shortcut and startup command in iTerm2 to start up weechat. Configuration Here’s an example irc.conf for weechat. I had to make a slight modification to how urlgrab worked so here’s my urlgrab.conf file. I believe it was adding quotes around %s for localcmd. Usage I switch buffers with /b &lt;buffer number. I bestow karma via /karma &lt;name&gt; &lt;amount&gt;. And examining urls is a snap with /url &lt;ordinal position of url most recent first&gt; e.g., /url 1 opens up the most recent url in the current buffer. Coming up You may look forward to what I had to do to install camper_van (war story!) and another plugin to start camper_van in the background as a hook_process on weechat so there’s no need to run camper_van in its own terminal." />
+<link rel="canonical" href="http://localhost:4000/blog/2013/02/13/weechat-bliss/" />
+<meta property="og:url" content="http://localhost:4000/blog/2013/02/13/weechat-bliss/" />
+<meta property="og:site_name" content="Two minute spates" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-02-13T18:11:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Weechat Bliss" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jonathan R Wallace"},"dateModified":"2013-02-13T18:11:00-05:00","datePublished":"2013-02-13T18:11:00-05:00","description":"Back in Weechat Karmageddon, I spoke about a script I wrote to make giving hubot karma easy-peasy. In this post, we’ll talk about the rest of my weechat setup. Overview Weechat has two main ways to extend its stock functionality, scripts and plugins. Plugins are C programs that are dynamically loaded. Writing C programs to extend my IRC client is more work than I care for so I stick to scripts. Since I use scripts from perl, python and ruby I make sure to install weechat with support for those languages. $ brew install weechat –ruby –python –perl $ brew install weechat --with-ruby --with-python --with-perl Scripts Here’s a quick list of scripts that I use regularly: weechat-notification-center-rb – notifies you in Mac OS X Notification center weechat-nerdbot-karma – bestows karma, nerdbot style buffers.pl – lists your current buffers urlgrab.py – quickly open up links of the cat images shared by coworkers Once weechat has started, you may type /script help to get an interactive script manager. Unofficial scripts will not be listed in the interactive script manager so you’ll need to follow the installation instructions for weechat-notification-center-rb and weechat-nerdbot-karma. Startup I currently run camper_van as a proxy to my work campfire rooms, so I run camper_van camper_van in one terminal and then I set up a custom profile with a handy shortcut and startup command in iTerm2 to start up weechat. Configuration Here’s an example irc.conf for weechat. I had to make a slight modification to how urlgrab worked so here’s my urlgrab.conf file. I believe it was adding quotes around %s for localcmd. Usage I switch buffers with /b &lt;buffer number. I bestow karma via /karma &lt;name&gt; &lt;amount&gt;. And examining urls is a snap with /url &lt;ordinal position of url most recent first&gt; e.g., /url 1 opens up the most recent url in the current buffer. Coming up You may look forward to what I had to do to install camper_van (war story!) and another plugin to start camper_van in the background as a hook_process on weechat so there’s no need to run camper_van in its own terminal.","headline":"Weechat Bliss","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2013/02/13/weechat-bliss/"},"url":"http://localhost:4000/blog/2013/02/13/weechat-bliss/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/">Two minute spates</a></h1>
+      
+
+      <p>Back in <a href="http://blog.jonathanrwallace.com/blog/2013/01/17/weechat-karmageddon/">Weechat Karmageddon</a>, I spoke about a script I wrote to make giving hubot karma easy-peasy.  In this post, we’ll talk about the rest of my weechat setup.</p>
+
+<p><a href="http://www.flickr.com/photos/superfantastic/50088733/" title="Buddha dog by SuperFantastic, on Flickr"><img src="http://farm1.staticflickr.com/32/50088733_58935531ce_m.jpg" width="240" height="160" alt="Buddha dog" /></a></p>
+
+<!-- more -->
+
+<h2 id="overview">Overview</h2>
+
+<p>Weechat has two main ways to extend its stock functionality, scripts and plugins. Plugins are C programs that are dynamically loaded. Writing C programs to extend my IRC client is more work than I care for so I stick to scripts.</p>
+
+<p>Since I use scripts from perl, python and ruby I make sure to install weechat with support for those languages.</p>
+
+<p><del>$ brew install weechat –ruby –python –perl</del>
+<code class="language-plaintext highlighter-rouge">$ brew install weechat --with-ruby --with-python --with-perl</code></p>
+
+<h2 id="scripts">Scripts</h2>
+
+<p>Here’s a quick list of scripts that I use regularly:</p>
+
+<ul>
+  <li><a href="https://github.com/wallace/weechat-notification-center-rb">weechat-notification-center-rb</a> – notifies you in Mac OS X Notification center</li>
+  <li><a href="https://github.com/wallace/weechat-nerdbot-karma">weechat-nerdbot-karma</a> – bestows karma, nerdbot style</li>
+  <li><a href="http://www.weechat.org/scripts/source/buffers.pl.html/">buffers.pl</a> – lists your current buffers</li>
+  <li><a href="http://www.weechat.org/scripts/source/urlgrab.py.html/">urlgrab.py</a> – quickly open up links of the cat images shared by coworkers</li>
+</ul>
+
+<p>Once weechat has started, you may type <code class="language-plaintext highlighter-rouge">/script help</code> to get an interactive script manager.  Unofficial scripts will not be listed in the interactive script manager so you’ll need to follow the installation instructions for <a href="https://github.com/wallace/weechat-notification-center-rb">weechat-notification-center-rb</a> and <a href="https://github.com/wallace/weechat-nerdbot-karma">weechat-nerdbot-karma</a>.</p>
+
+<h2 id="startup">Startup</h2>
+
+<p>I currently run camper_van as a proxy to my work campfire rooms, so I run <del><a href="https://github.com/aniero/camper_van">camper_van</a></del> <a href="https://github.com/zerowidth/camper_van">camper_van</a> in one terminal and then I set up a <a href="https://www.evernote.com/shard/s2/sh/c42cd246-a62e-481f-abbe-883983ac1016/794e8070a80d96a8b0f2bdf9c2320dc9/res/84d089e9-0852-49c2-b3e6-2150411b51b6/skitch.png">custom profile with a handy shortcut and startup command in iTerm2 to start up weechat</a>.</p>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>Here’s an example irc.conf for weechat.</p>
+
+<script src="https://gist.github.com/4949912.js"> </script>
+
+<p>I had to make a slight modification to how urlgrab worked so here’s my urlgrab.conf file.  I believe it was adding quotes around %s for localcmd.</p>
+
+<script src="https://gist.github.com/4949942.js"> </script>
+
+<h2 id="usage">Usage</h2>
+
+<p>I switch buffers with <code class="language-plaintext highlighter-rouge">/b &lt;buffer number</code>.  I bestow karma via <code class="language-plaintext highlighter-rouge">/karma &lt;name&gt; &lt;amount&gt;</code>.  And examining urls is a snap with <code class="language-plaintext highlighter-rouge">/url &lt;ordinal position of url most recent first&gt;</code> e.g., <code class="language-plaintext highlighter-rouge">/url 1</code> opens up the most recent url in the current buffer.</p>
+
+<h2 id="coming-up">Coming up</h2>
+
+<p>You may look forward to what I had to do to install camper_van (war story!) and another plugin to start camper_van in the background as a hook_process on weechat so there’s no need to run camper_van in its own terminal.</p>
+
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

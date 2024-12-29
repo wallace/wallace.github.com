@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>my first haskell | Two minute spates</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="my first haskell" />
+<meta name="author" content="Jonathan R Wallace" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Last week I shared my secrets to an amazing code retreat. Since then Big Nerd Ranch held an internal code retreat (thanks Stafford) and although I was only able to participate for a couple of sessions due to client work, I learned a couple of things and got to play with a new language. Can you guess which one?!? Read on to found out. Though I’ve stated many times how valuable I find code retreats to be, I’m still impressed at how I continue to learn at a consistent rate each time I attend or facilitate. Lucky for me, this time I was able to participate which is so much fun. I had three experiences that I’d like to share. 1. “Simpler” equality in Ruby Way way back when, I shared what I learned at my first code retreat. Knowing how equality works in Ruby is a little tricky and understanding the importance of the hash and eql methods is key. But you can also get away with using the Comparable module (thanks Steven Harman). The tricky/dirty part here is determining when a point is “less than” another in a two dimensional coordinate plane. In the above code, I’m making an arbitrary distinction, we only look at the x axis, for the -1 and 1 cases as I really only care about equality. 2. Challenges of TDD with full stack integration tests As I mentioned above, I only experienced two full sessions. I was interuppted in the third session where we were constrained to using mute ping-pong TDD. But what was interesting is how in the few minutes we did share, I started with a full integration test. This stumped my partner. And to be honest, it was a little unfair as there’s no way he could write a passing test without resorting to some nefarious behaviors. I later found out that we weren’t the only ones who found starting with a high level integration test challenging when we weren’t able to vocally coordinate with our partner. There’s got to be some profound insight related to documentation, abstraction and code rot over time. 3. Haskell!!!! Finally, what I’m most excited about is that I was able to pair with Bree Stanwyck and we used Haskell. This was the first time I was exposed to Haskell other than via a presentation and we managed, with tests, to get a functioning Haskell GoL implementation within the session. I was very impressed with Haskell and look forward to exploring it more in the near future. The elegance and simplicity allows the intent of the GoL algorithm to shine through. For my next step, I’m planning on working through http://learnyouahaskell.com/." />
+<meta property="og:description" content="Last week I shared my secrets to an amazing code retreat. Since then Big Nerd Ranch held an internal code retreat (thanks Stafford) and although I was only able to participate for a couple of sessions due to client work, I learned a couple of things and got to play with a new language. Can you guess which one?!? Read on to found out. Though I’ve stated many times how valuable I find code retreats to be, I’m still impressed at how I continue to learn at a consistent rate each time I attend or facilitate. Lucky for me, this time I was able to participate which is so much fun. I had three experiences that I’d like to share. 1. “Simpler” equality in Ruby Way way back when, I shared what I learned at my first code retreat. Knowing how equality works in Ruby is a little tricky and understanding the importance of the hash and eql methods is key. But you can also get away with using the Comparable module (thanks Steven Harman). The tricky/dirty part here is determining when a point is “less than” another in a two dimensional coordinate plane. In the above code, I’m making an arbitrary distinction, we only look at the x axis, for the -1 and 1 cases as I really only care about equality. 2. Challenges of TDD with full stack integration tests As I mentioned above, I only experienced two full sessions. I was interuppted in the third session where we were constrained to using mute ping-pong TDD. But what was interesting is how in the few minutes we did share, I started with a full integration test. This stumped my partner. And to be honest, it was a little unfair as there’s no way he could write a passing test without resorting to some nefarious behaviors. I later found out that we weren’t the only ones who found starting with a high level integration test challenging when we weren’t able to vocally coordinate with our partner. There’s got to be some profound insight related to documentation, abstraction and code rot over time. 3. Haskell!!!! Finally, what I’m most excited about is that I was able to pair with Bree Stanwyck and we used Haskell. This was the first time I was exposed to Haskell other than via a presentation and we managed, with tests, to get a functioning Haskell GoL implementation within the session. I was very impressed with Haskell and look forward to exploring it more in the near future. The elegance and simplicity allows the intent of the GoL algorithm to shine through. For my next step, I’m planning on working through http://learnyouahaskell.com/." />
+<link rel="canonical" href="http://localhost:4000/blog/2014/07/15/my-first-haskell/" />
+<meta property="og:url" content="http://localhost:4000/blog/2014/07/15/my-first-haskell/" />
+<meta property="og:site_name" content="Two minute spates" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-07-15T15:18:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="my first haskell" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Jonathan R Wallace"},"dateModified":"2014-07-15T15:18:00-04:00","datePublished":"2014-07-15T15:18:00-04:00","description":"Last week I shared my secrets to an amazing code retreat. Since then Big Nerd Ranch held an internal code retreat (thanks Stafford) and although I was only able to participate for a couple of sessions due to client work, I learned a couple of things and got to play with a new language. Can you guess which one?!? Read on to found out. Though I’ve stated many times how valuable I find code retreats to be, I’m still impressed at how I continue to learn at a consistent rate each time I attend or facilitate. Lucky for me, this time I was able to participate which is so much fun. I had three experiences that I’d like to share. 1. “Simpler” equality in Ruby Way way back when, I shared what I learned at my first code retreat. Knowing how equality works in Ruby is a little tricky and understanding the importance of the hash and eql methods is key. But you can also get away with using the Comparable module (thanks Steven Harman). The tricky/dirty part here is determining when a point is “less than” another in a two dimensional coordinate plane. In the above code, I’m making an arbitrary distinction, we only look at the x axis, for the -1 and 1 cases as I really only care about equality. 2. Challenges of TDD with full stack integration tests As I mentioned above, I only experienced two full sessions. I was interuppted in the third session where we were constrained to using mute ping-pong TDD. But what was interesting is how in the few minutes we did share, I started with a full integration test. This stumped my partner. And to be honest, it was a little unfair as there’s no way he could write a passing test without resorting to some nefarious behaviors. I later found out that we weren’t the only ones who found starting with a high level integration test challenging when we weren’t able to vocally coordinate with our partner. There’s got to be some profound insight related to documentation, abstraction and code rot over time. 3. Haskell!!!! Finally, what I’m most excited about is that I was able to pair with Bree Stanwyck and we used Haskell. This was the first time I was exposed to Haskell other than via a presentation and we managed, with tests, to get a functioning Haskell GoL implementation within the session. I was very impressed with Haskell and look forward to exploring it more in the near future. The elegance and simplicity allows the intent of the GoL algorithm to shine through. For my next step, I’m planning on working through http://learnyouahaskell.com/.","headline":"my first haskell","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2014/07/15/my-first-haskell/"},"url":"http://localhost:4000/blog/2014/07/15/my-first-haskell/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/">Two minute spates</a></h1>
+      
+
+      <p>Last week I shared my <a href="/blog/2014/07/06/my-code-retreat-syllabus/index.html">secrets to an amazing code retreat</a>. Since then <a href="http://bignerdranch.com">Big Nerd Ranch</a> held an internal code retreat (thanks <a href="https://twitter.com/srbiv">Stafford</a>) and although I was only able to participate for a couple of sessions due to client work, I learned a couple of things and got to play with a new language. Can you guess which one?!? Read on to found out.</p>
+
+<p><a href="https://www.flickr.com/photos/rockandracehorses/3783326324" title="Born To Run! Rachel Alexandra and Calvin Borel win the $1.25 million Haskell Invitational by Sarah K. Andrew, on Flickr"><img src="https://farm4.staticflickr.com/3110/3783326324_154fe1441d_m.jpg" width="240" height="180" alt="Born To Run! Rachel Alexandra and Calvin Borel win the $1.25 million Haskell Invitational" /></a></p>
+
+<!-- more -->
+
+<p>Though I’ve stated many times how valuable I find code retreats to be, I’m still impressed at how I continue to learn at a consistent rate each time I attend or facilitate. Lucky for me, this time I was able to participate which is so much fun.</p>
+
+<p>I had three experiences that I’d like to share.</p>
+
+<h3 id="1-simpler-equality-in-ruby">1. “Simpler” equality in Ruby</h3>
+
+<p>Way way back when, I shared <a href="http://www.bignerdranch.com/blog/lessons-learned-at-global-day-of-coderetreat/">what I learned at my first code retreat</a>. Knowing how equality works in Ruby is a little tricky and understanding the importance of the hash and eql methods is key. But you can also get away with using the Comparable module (thanks <a href="http://stevenharman.net/">Steven Harman</a>).</p>
+
+<script src="https://gist.github.com/4a0d0f0403a2b85b383f.js?file=point.rb"> </script>
+
+<p>The tricky/dirty part here is determining when a point is “less than” another in a two dimensional coordinate plane. In the above code, I’m making an arbitrary distinction, we only look at the x axis, for the -1 and 1 cases as I really only care about equality.</p>
+
+<h3 id="2-challenges-of-tdd-with-full-stack-integration-tests">2. Challenges of TDD with full stack integration tests</h3>
+
+<p>As I mentioned above, I only experienced two full sessions. I was interuppted in the third session where we were constrained to using mute ping-pong TDD. But what was interesting is how in the few minutes we did share, I started with a full integration test. This stumped my partner. And to be honest, it was a little unfair as there’s no way he could write a passing test without resorting to some nefarious behaviors. I later found out that we weren’t the only ones who found starting with a high level integration test challenging when we weren’t able to vocally coordinate with our partner. There’s got to be some profound insight related to documentation, abstraction and code rot over time.</p>
+
+<h3 id="3-haskell">3. Haskell!!!!</h3>
+
+<p>Finally, what I’m most excited about is that I was able to pair with <a href="https://twitter.com/letsbreelhere">Bree Stanwyck</a> and we used Haskell. This was the first time I was exposed to Haskell other than via a presentation and we managed, with tests, to get a <a href="https://gist.github.com/breestanwyck/479faa4a274f7278b5fb">functioning Haskell GoL implementation</a> within the session. I was very impressed with Haskell and look forward to exploring it more in the near future. The elegance and simplicity allows the intent of the GoL algorithm to shine through.</p>
+
+<p>For my next step, I’m planning on working through <a href="http://learnyouahaskell.com/">http://learnyouahaskell.com/</a>.</p>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
