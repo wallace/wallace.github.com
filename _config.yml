@@ -2,7 +2,7 @@
 title: Two minute spates
 subtitle: Levelling up in ALL the things
 author: Jonathan R Wallace
-description: Entrepreneurship and software development in Ruby, Rails, javascript, Clojure, Go, Objective-C, iOS. Some other life stuff too.
+description: Leadership, management, entrepreneurship and software development and some other life stuff too.
 url: http://blog.jonathanrwallace.com
 baseurl: ""
 
@@ -17,7 +17,7 @@ plugins:
 # Hyde theme settings
 sidebar-about-description: "Levelling up in ALL the things"
 version: 2.0.0
-theme_color: theme-base-08
+theme_color: theme-base-0d
 
 # Build settings
 markdown: kramdown
