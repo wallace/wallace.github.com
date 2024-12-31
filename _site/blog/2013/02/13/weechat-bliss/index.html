@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Weechat Bliss &middot; Two minute spates
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head> 
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Two minute spates
+        </a>
+      </h1>
+      <p class="lead">Leadership, management, entrepreneurship and software development and some other life stuff too.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about/">About</a>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </nav>
+
+    <p>&copy; 2024. All rights reserved.</p>
+  </div>
+</div> 
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Weechat Bliss</h1>
+  <span class="post-date">13 Feb 2013</span>
+  <p>Back in <a href="http://blog.jonathanrwallace.com/blog/2013/01/17/weechat-karmageddon/">Weechat Karmageddon</a>, I spoke about a script I wrote to make giving hubot karma easy-peasy.  In this post, we’ll talk about the rest of my weechat setup.</p>
+
+<p><a href="http://www.flickr.com/photos/superfantastic/50088733/" title="Buddha dog by SuperFantastic, on Flickr"><img src="http://farm1.staticflickr.com/32/50088733_58935531ce_m.jpg" width="240" height="160" alt="Buddha dog" /></a></p>
+
+<!-- more -->
+
+<h2 id="overview">Overview</h2>
+
+<p>Weechat has two main ways to extend its stock functionality, scripts and plugins. Plugins are C programs that are dynamically loaded. Writing C programs to extend my IRC client is more work than I care for so I stick to scripts.</p>
+
+<p>Since I use scripts from perl, python and ruby I make sure to install weechat with support for those languages.</p>
+
+<p><del>$ brew install weechat –ruby –python –perl</del>
+<code class="language-plaintext highlighter-rouge">$ brew install weechat --with-ruby --with-python --with-perl</code></p>
+
+<h2 id="scripts">Scripts</h2>
+
+<p>Here’s a quick list of scripts that I use regularly:</p>
+
+<ul>
+  <li><a href="https://github.com/wallace/weechat-notification-center-rb">weechat-notification-center-rb</a> – notifies you in Mac OS X Notification center</li>
+  <li><a href="https://github.com/wallace/weechat-nerdbot-karma">weechat-nerdbot-karma</a> – bestows karma, nerdbot style</li>
+  <li><a href="http://www.weechat.org/scripts/source/buffers.pl.html/">buffers.pl</a> – lists your current buffers</li>
+  <li><a href="http://www.weechat.org/scripts/source/urlgrab.py.html/">urlgrab.py</a> – quickly open up links of the cat images shared by coworkers</li>
+</ul>
+
+<p>Once weechat has started, you may type <code class="language-plaintext highlighter-rouge">/script help</code> to get an interactive script manager.  Unofficial scripts will not be listed in the interactive script manager so you’ll need to follow the installation instructions for <a href="https://github.com/wallace/weechat-notification-center-rb">weechat-notification-center-rb</a> and <a href="https://github.com/wallace/weechat-nerdbot-karma">weechat-nerdbot-karma</a>.</p>
+
+<h2 id="startup">Startup</h2>
+
+<p>I currently run camper_van as a proxy to my work campfire rooms, so I run <del><a href="https://github.com/aniero/camper_van">camper_van</a></del> <a href="https://github.com/zerowidth/camper_van">camper_van</a> in one terminal and then I set up a <a href="https://www.evernote.com/shard/s2/sh/c42cd246-a62e-481f-abbe-883983ac1016/794e8070a80d96a8b0f2bdf9c2320dc9/res/84d089e9-0852-49c2-b3e6-2150411b51b6/skitch.png">custom profile with a handy shortcut and startup command in iTerm2 to start up weechat</a>.</p>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>Here’s an example irc.conf for weechat.</p>
+
+<script src="https://gist.github.com/4949912.js"> </script>
+
+<p>I had to make a slight modification to how urlgrab worked so here’s my urlgrab.conf file.  I believe it was adding quotes around %s for localcmd.</p>
+
+<script src="https://gist.github.com/4949942.js"> </script>
+
+<h2 id="usage">Usage</h2>
+
+<p>I switch buffers with <code class="language-plaintext highlighter-rouge">/b &lt;buffer number</code>.  I bestow karma via <code class="language-plaintext highlighter-rouge">/karma &lt;name&gt; &lt;amount&gt;</code>.  And examining urls is a snap with <code class="language-plaintext highlighter-rouge">/url &lt;ordinal position of url most recent first&gt;</code> e.g., <code class="language-plaintext highlighter-rouge">/url 1</code> opens up the most recent url in the current buffer.</p>
+
+<h2 id="coming-up">Coming up</h2>
+
+<p>You may look forward to what I had to do to install camper_van (war story!) and another plugin to start camper_van in the background as a hook_process on weechat so there’s no need to run camper_van in its own terminal.</p>
+
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/blog/2017/01/10/last-night-i-had-a-dream/">
+            Last night I had a dream
+            <small>10 Jan 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/blog/2017/01/01/so-you-want-to-learn-how-to-program/">
+            So you want to learn how to program
+            <small>01 Jan 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/blog/2016/11/13/resonating-principles/">
+            Resonating Principles
+            <small>13 Nov 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html> 
