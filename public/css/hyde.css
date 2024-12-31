@@ -113,10 +113,8 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
+    position: relative;
+    top: 0;
   }
 }
 
@@ -130,6 +128,7 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
+  position: relative;
 }
 
 @media (min-width: 48em) {
@@ -225,4 +224,16 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* Archive */
+.archive-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.archive-date {
+  display: inline-block;
+  min-width: 120px;
+  color: #9a9a9a;
 } 
