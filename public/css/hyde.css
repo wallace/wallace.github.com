@@ -236,4 +236,23 @@ a.sidebar-nav-item:focus {
   display: inline-block;
   min-width: 120px;
   color: #9a9a9a;
+}
+
+/* About page */
+.about ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.about a {
+  color: #6a9fb5;  /* Matches the blue theme */
+}
+
+.about a:hover {
+  text-decoration: underline;
 } 
